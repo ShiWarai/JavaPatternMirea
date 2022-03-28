@@ -1,4 +1,4 @@
-package ru.mirea.Task6.Builder;
+package ru.mirea.task6.Builder;
 
 public class ForestGenerator implements MapGenerator{
 

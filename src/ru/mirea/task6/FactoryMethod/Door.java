@@ -1,4 +1,4 @@
-package ru.mirea.Task6.FactoryMethod;
+package ru.mirea.task6.FactoryMethod;
 import java.util.ArrayList;
 
 public class Door {

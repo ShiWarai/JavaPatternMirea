@@ -1,6 +1,4 @@
-package ru.mirea.Task6.FactoryMethod;
-
-import ru.mirea.task5.SingletonClass4;
+package ru.mirea.task6.FactoryMethod;
 
 public class Main {
     public static void main(String[] args){

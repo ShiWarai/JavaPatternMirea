@@ -1,4 +1,4 @@
-package ru.mirea.Task6.FactoryMethod;
+package ru.mirea.task6.FactoryMethod;
 
 import static java.lang.Math.abs;
 

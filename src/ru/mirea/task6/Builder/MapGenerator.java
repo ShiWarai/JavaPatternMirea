@@ -1,6 +1,4 @@
-package ru.mirea.Task6.Builder;
-
-import java.util.Random;
+package ru.mirea.task6.Builder;
 
 public interface MapGenerator {
 

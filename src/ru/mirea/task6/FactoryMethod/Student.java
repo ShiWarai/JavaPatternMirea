@@ -1,4 +1,4 @@
-package ru.mirea.Task6.FactoryMethod;
+package ru.mirea.task6.FactoryMethod;
 
 public class Student extends Participant {
     public Student(long id){

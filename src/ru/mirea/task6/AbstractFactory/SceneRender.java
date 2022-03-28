@@ -1,4 +1,4 @@
-package ru.mirea.Task6.AbstractFactory;
+package ru.mirea.task6.AbstractFactory;
 
 public class SceneRender implements AbstractScreenRender {
 

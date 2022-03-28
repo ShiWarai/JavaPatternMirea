@@ -1,4 +1,4 @@
-package ru.mirea.Task6.Prototype;
+package ru.mirea.task6.Prototype;
 
 public class Tank extends ArmoredVehicle
 {

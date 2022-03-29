@@ -1,0 +1,48 @@
+/*
+ * To start: sudo ./gradlew task9
+ */
+
+plugins {
+    id 'java'
+    id 'application'
+}
+
+sourceCompatibility = 17
+targetCompatibility = 17
+
+sourceSets {
+    main {
+        java {
+            srcDirs 'src/main/java/com/Application/'
+        }
+    }
+}
+
+jar {
+    archiveBaseName = "app"
+    manifest {
+        attributes 'Main-Class': 'ru.mirea.task9.src.main.java.com.Application.App'
+    }
+}
+
+repositories {
+    mavenCentral()
+}
+
+task copyJar(type: Copy) {
+    from jar
+    into 'DockerFolder'
+}
+
+tasks.register("task9") {
+    dependsOn copyJar
+    finalizedBy {
+        Docker
+    }
+}
+
+task Docker(type: Exec) {
+    Runtime.runtime.exec('docker build -t task9 ./DockerFolder')
+    commandLine 'docker', 'run', 'task9'
+}
+

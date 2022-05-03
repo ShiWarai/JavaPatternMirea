@@ -12,6 +12,7 @@
       <excludeFolder url="file://$MODULE_DIR$/src/ru/mirea/task9" />
       <excludeFolder url="file://$MODULE_DIR$/src/ru/mirea/task11" />
       <excludeFolder url="file://$MODULE_DIR$/src/ru/mirea/task12" />
+      <excludeFolder url="file://$MODULE_DIR$/src/ru/mirea/task13" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

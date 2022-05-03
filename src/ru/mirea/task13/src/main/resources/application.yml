@@ -1,0 +1,7 @@
+student:
+  name: Pavel
+  last_name: Zhuravliov
+  group: IKBO0120
+
+server:
+  port: 8000

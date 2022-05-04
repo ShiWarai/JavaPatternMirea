@@ -1,0 +1,12 @@
+server:
+  port: 8000
+
+spring:
+  jpa:
+    database: postgresql
+  thymeleaf:
+    prefix: classpath:/static/
+  sql:
+    init:
+      mode: always
+      schema-locations: classpath*:database/init.sql

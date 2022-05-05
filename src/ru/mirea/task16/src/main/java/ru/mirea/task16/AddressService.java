@@ -1,5 +1,6 @@
 package ru.mirea.task16;
 
+import org.hibernate.Hibernate;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;
@@ -30,9 +31,11 @@ public class AddressService implements TableService<Address> {
     @Override
     public List<Address> readAllEntity() {
         session = sessionFactory.openSession();
-        List<Address> students = session.createQuery("select i from Address i", Address.class).getResultList();
+        List<Address> addresses = session.createQuery("select i from Address i", Address.class).getResultList();
+        for (Address address : addresses)
+            Hibernate.initialize(address.getBuildings());
         session.close();
-        return students;
+        return addresses;
     }
 
 

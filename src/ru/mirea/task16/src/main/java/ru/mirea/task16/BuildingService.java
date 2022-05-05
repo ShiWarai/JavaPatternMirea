@@ -30,9 +30,9 @@ public class BuildingService implements TableService<Building> {
     @Override
     public List<Building> readAllEntity() {
         session = sessionFactory.openSession();
-        List<Building> students = session.createQuery("select i from Building i", Building.class).getResultList();
+        List<Building> addresses = session.createQuery("select i from Building i", Building.class).getResultList();
         session.close();
-        return students;
+        return addresses;
     }
 
     @Override

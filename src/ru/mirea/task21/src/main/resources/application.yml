@@ -1,0 +1,34 @@
+server:
+  port: 8000
+
+spring:
+  datasource:
+    username: shiwarai
+    password: shiwarai
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/postgres
+  jpa:
+    database: postgresql
+    database-platform: org.hibernate.dialect.PostgreSQL10Dialect
+  thymeleaf:
+    prefix: classpath:/static/
+  sql:
+    init:
+      mode: always
+      schema-locations: classpath*:database/init.sql
+  mail:
+    properties:
+      mail:
+        smtp:
+          starttls:
+            enable: 'true'
+            required: 'true'
+          ssl:
+            enable: 'true'
+          auth: 'true'
+        transport:
+          protocol: smtp
+    host: smtp.yandex.ru
+    username: shiwarai.test@yandex.ru
+    password: 5_LG-d6G-Nu6-QR_8
+    port: '465'

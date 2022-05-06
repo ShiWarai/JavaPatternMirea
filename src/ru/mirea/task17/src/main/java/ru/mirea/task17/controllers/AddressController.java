@@ -38,20 +38,7 @@ public class AddressController {
     @GetMapping(value="/get_addresses/by")
     public ResponseEntity<List<Address>> getAddressBy(@RequestParam(value = "text", required = false) String text,
                                                       @RequestParam(value = "zip", required = false) String zip) {
-        List<Address> addresses = null;
-
-        if(text != null && zip != null) {
-            addresses = ((AddressService) serviceTableService).filterByText(text);
-            for (Address address : addresses) {
-                if (address.getZip() != zip)
-                    addresses.remove(address);
-            }
-        }
-        else if(text != null)
-            addresses = ((AddressService)serviceTableService).filterByText(text);
-        else if (zip != null)
-            addresses = ((AddressService)serviceTableService).filterByZip(zip);
-
+        List<Address> addresses = ((AddressService) serviceTableService).filterBy(text, zip);
         return addresses != null && !addresses.isEmpty()
                 ? new ResponseEntity<>(addresses, HttpStatus.OK)
                 : new ResponseEntity<>(HttpStatus.NOT_FOUND);

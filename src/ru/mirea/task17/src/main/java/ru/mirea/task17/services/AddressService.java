@@ -11,7 +11,9 @@ import ru.mirea.task17.tables.Address;
 import javax.persistence.criteria.CriteriaBuilder;
 import javax.persistence.criteria.CriteriaQuery;
 import javax.persistence.criteria.Root;
+import java.util.ArrayList;
 import java.util.List;
+import java.util.Optional;
 
 @Service
 public class AddressService implements TableService<Address> {
@@ -63,33 +65,37 @@ public class AddressService implements TableService<Address> {
         return true;
     }
 
-    public List<Address> filterByText(String text) {
+    public List<Address> filterBy(String text, String zip){
+        List<Address> addresses;
+
         session = sessionFactory.openSession();
         CriteriaBuilder builder = session.getCriteriaBuilder();
-        CriteriaQuery<Address> dogCriteriaQuery =
-                builder.createQuery(Address.class);
-        Root<Address> root = dogCriteriaQuery.from(Address.class);
+        CriteriaQuery<Address> query = builder.createQuery(Address.class);
+        Root<Address> root = query.from(Address.class);
 
-        dogCriteriaQuery.select(root).where(builder.equal(root.get("text"), text));
-        List<Address> addresses = session.createQuery(dogCriteriaQuery).getResultList();
+        if (text != null && zip != null){
+            query.select(root).where(builder.and(builder.equal(root.get("text"), text),
+                                                builder.equal(root.get("zip"), zip)));
+        }
+        else if(text != null)
+            query.select(root).where(builder.equal(root.get("text"), text));
+        else if (zip != null) {
+            query.select(root).where(builder.equal(root.get("zip"), zip));
+        }
+
+        addresses = session.createQuery(query).getResultList();
         for (Address address : addresses)
             Hibernate.initialize(address.getBuildings());
         session.close();
+
         return addresses;
     }
 
-    public List<Address> filterByZip(String zip) {
-        session = sessionFactory.openSession();
-        CriteriaBuilder builder = session.getCriteriaBuilder();
-        CriteriaQuery<Address> dogCriteriaQuery =
-                builder.createQuery(Address.class);
-        Root<Address> root = dogCriteriaQuery.from(Address.class);
+    public List<Address> filterByText(String text) {
+        return filterBy(text, null);
+    }
 
-        dogCriteriaQuery.select(root).where(builder.equal(root.get("zip"), zip));
-        List<Address> addresses = session.createQuery(dogCriteriaQuery).getResultList();
-        for (Address address : addresses)
-            Hibernate.initialize(address.getBuildings());
-        session.close();
-        return addresses;
+    public List<Address> filterByZip(String zip) {
+        return filterBy(null, zip);
     }
 }

@@ -36,21 +36,9 @@ public class BuildingController {
 
     @GetMapping(value="/get_buildings/by")
     public ResponseEntity<List<Building>> getBuildingBy(@RequestParam(value = "date", required = false) String date,
-                                                        @RequestParam(value = "type", required = false) String type) {
-        List<Building> buildings = null;
-
-        if(date != null && type != null) {
-            buildings = ((BuildingService) serviceTableService).filterByDate(date);
-            for (Building building : buildings) {
-                if (building.getType() != type)
-                    buildings.remove(building);
-            }
-        }
-        else if(date != null)
-            buildings = ((BuildingService)serviceTableService).filterByDate(date);
-        else if (type != null)
-            buildings = ((BuildingService)serviceTableService).filterByType(type);
-
+                                                        @RequestParam(value = "type", required = false) String type)
+    {
+        List<Building> buildings = ((BuildingService) serviceTableService).filterBy(date, type);
         return buildings != null && !buildings.isEmpty()
                 ? new ResponseEntity<>(buildings, HttpStatus.OK)
                 : new ResponseEntity<>(HttpStatus.NOT_FOUND);

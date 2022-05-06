@@ -7,7 +7,6 @@ import org.hibernate.Transaction;
 import org.hibernate.query.Query;
 import org.springframework.stereotype.Service;
 import ru.mirea.task17.tables.Building;
-import ru.mirea.task17.tables.Building;
 
 import javax.persistence.criteria.CriteriaBuilder;
 import javax.persistence.criteria.CriteriaQuery;
@@ -62,29 +61,35 @@ public class BuildingService implements TableService<Building> {
         return true;
     }
 
-    public List<Building> filterByDate(String date) {
+    public List<Building> filterBy(String date, String type){
+        List<Building> buidlings;
+
         session = sessionFactory.openSession();
         CriteriaBuilder builder = session.getCriteriaBuilder();
-        CriteriaQuery<Building> dogCriteriaQuery =
-                builder.createQuery(Building.class);
-        Root<Building> root = dogCriteriaQuery.from(Building.class);
+        CriteriaQuery<Building> query = builder.createQuery(Building.class);
+        Root<Building> root = query.from(Building.class);
 
-        dogCriteriaQuery.select(root).where(builder.equal(root.get("date"), date));
-        List<Building> buildings = session.createQuery(dogCriteriaQuery).getResultList();
+        if (date != null && type != null){
+            query.select(root).where(builder.and(builder.equal(root.get("date"), date),
+                                                builder.equal(root.get("type"), type)));
+        }
+        else if(date != null)
+            query.select(root).where(builder.equal(root.get("date"), date));
+        else if (type != null) {
+            query.select(root).where(builder.equal(root.get("type"), type));
+        }
+
+        buidlings = session.createQuery(query).getResultList();
         session.close();
-        return buildings;
+
+        return buidlings;
+    }
+
+    public List<Building> filterByDate(String date) {
+        return filterBy(date, null);
     }
 
     public List<Building> filterByType(String type) {
-        session = sessionFactory.openSession();
-        CriteriaBuilder builder = session.getCriteriaBuilder();
-        CriteriaQuery<Building> dogCriteriaQuery =
-                builder.createQuery(Building.class);
-        Root<Building> root = dogCriteriaQuery.from(Building.class);
-
-        dogCriteriaQuery.select(root).where(builder.equal(root.get("type"), type));
-        List<Building> buildings = session.createQuery(dogCriteriaQuery).getResultList();
-        session.close();
-        return buildings;
+        return filterBy(null, type);
     }
 }

@@ -1,0 +1,138 @@
+2435 [background-preinit] INFO  o.h.validator.internal.util.Version – HV000001: Hibernate Validator 6.2.3.Final
+2504 [main] INFO  ru.mirea.task20.Application – Starting Application using Java 17 on ASUSLaptop-X509DA-D509DA with PID 20069 (/media/shiwarai/YandexDisk/Учёба/Шаблоны Java/JavaPatternMirea/src/ru/mirea/task20/build/classes/java/main started by shiwarai in /media/shiwarai/YandexDisk/Учёба/Шаблоны Java/JavaPatternMirea/src/ru/mirea/task20)
+2506 [main] INFO  ru.mirea.task20.Application – No active profile set, falling back to 1 default profile: "default"
+5022 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+5313 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Finished Spring Data repository scanning in 229 ms. Found 2 JPA repository interfaces.
+8394 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer – Tomcat initialized with port(s): 8000 (http)
+8418 [main] INFO  o.a.coyote.http11.Http11NioProtocol – Initializing ProtocolHandler ["http-nio-8000"]
+8419 [main] INFO  o.a.catalina.core.StandardService – Starting service [Tomcat]
+8419 [main] INFO  o.a.catalina.core.StandardEngine – Starting Servlet engine: [Apache Tomcat/9.0.62]
+8775 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] – Initializing Spring embedded WebApplicationContext
+8776 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext – Root WebApplicationContext: initialization completed in 6113 ms
+9301 [main] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Starting...
+10344 [main] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Start completed.
+10968 [main] INFO  o.h.jpa.internal.util.LogHelper – HHH000204: Processing PersistenceUnitInfo [name: default]
+11238 [main] INFO  org.hibernate.Version – HHH000412: Hibernate ORM core version 5.6.8.Final
+12183 [main] INFO  o.h.annotations.common.Version – HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+12729 [main] INFO  org.hibernate.dialect.Dialect – HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+14886 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator – HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+14917 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean – Initialized JPA EntityManagerFactory for persistence unit 'default'
+16093 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration – spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+17036 [main] INFO  o.a.coyote.http11.Http11NioProtocol – Starting ProtocolHandler ["http-nio-8000"]
+17097 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer – Tomcat started on port(s): 8000 (http) with context path ''
+17147 [main] INFO  ru.mirea.task20.Application – Started Application in 16.219 seconds (JVM running for 17.572)
+84751 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean – Closing JPA EntityManagerFactory for persistence unit 'default'
+84802 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Shutdown initiated...
+84980 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Shutdown completed.
+2477 [background-preinit] INFO  o.h.validator.internal.util.Version – HV000001: Hibernate Validator 6.2.3.Final
+2535 [main] INFO  ru.mirea.task20.Application – Starting Application using Java 17 on ASUSLaptop-X509DA-D509DA with PID 20282 (/media/shiwarai/YandexDisk/Учёба/Шаблоны Java/JavaPatternMirea/src/ru/mirea/task20/build/classes/java/main started by shiwarai in /media/shiwarai/YandexDisk/Учёба/Шаблоны Java/JavaPatternMirea/src/ru/mirea/task20)
+2537 [main] INFO  ru.mirea.task20.Application – No active profile set, falling back to 1 default profile: "default"
+4277 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+4405 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Finished Spring Data repository scanning in 102 ms. Found 2 JPA repository interfaces.
+6387 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer – Tomcat initialized with port(s): 8000 (http)
+6436 [main] INFO  o.a.coyote.http11.Http11NioProtocol – Initializing ProtocolHandler ["http-nio-8000"]
+6437 [main] INFO  o.a.catalina.core.StandardService – Starting service [Tomcat]
+6437 [main] INFO  o.a.catalina.core.StandardEngine – Starting Servlet engine: [Apache Tomcat/9.0.62]
+6753 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] – Initializing Spring embedded WebApplicationContext
+6753 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext – Root WebApplicationContext: initialization completed in 4101 ms
+6990 [main] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Starting...
+7711 [main] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Start completed.
+8170 [main] INFO  o.h.jpa.internal.util.LogHelper – HHH000204: Processing PersistenceUnitInfo [name: default]
+8591 [main] INFO  org.hibernate.Version – HHH000412: Hibernate ORM core version 5.6.8.Final
+9227 [main] INFO  o.h.annotations.common.Version – HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+9701 [main] INFO  org.hibernate.dialect.Dialect – HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+11595 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator – HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+11617 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean – Initialized JPA EntityManagerFactory for persistence unit 'default'
+13161 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration – spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+14665 [main] INFO  o.a.coyote.http11.Http11NioProtocol – Starting ProtocolHandler ["http-nio-8000"]
+14804 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer – Tomcat started on port(s): 8000 (http) with context path ''
+14850 [main] INFO  ru.mirea.task20.Application – Started Application in 13.875 seconds (JVM running for 15.414)
+990175 [http-nio-8000-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] – Initializing Spring DispatcherServlet 'dispatcherServlet'
+990247 [http-nio-8000-exec-1] INFO  o.s.web.servlet.DispatcherServlet – Initializing Servlet 'dispatcherServlet'
+990426 [http-nio-8000-exec-1] INFO  o.s.web.servlet.DispatcherServlet – Completed initialization in 177 ms
+995976 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean – Closing JPA EntityManagerFactory for persistence unit 'default'
+995998 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Shutdown initiated...
+996137 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Shutdown completed.
+1859 [background-preinit] INFO  o.h.validator.internal.util.Version – HV000001: Hibernate Validator 6.2.3.Final
+1981 [main] INFO  ru.mirea.task20.Application – Starting Application using Java 17 on ASUSLaptop-X509DA-D509DA with PID 30392 (/media/shiwarai/YandexDisk/Учёба/Шаблоны Java/JavaPatternMirea/src/ru/mirea/task20/build/classes/java/main started by shiwarai in /media/shiwarai/YandexDisk/Учёба/Шаблоны Java/JavaPatternMirea/src/ru/mirea/task20)
+1987 [main] INFO  ru.mirea.task20.Application – No active profile set, falling back to 1 default profile: "default"
+4311 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+4466 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Finished Spring Data repository scanning in 128 ms. Found 2 JPA repository interfaces.
+6445 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer – Tomcat initialized with port(s): 8000 (http)
+6471 [main] INFO  o.a.coyote.http11.Http11NioProtocol – Initializing ProtocolHandler ["http-nio-8000"]
+6472 [main] INFO  o.a.catalina.core.StandardService – Starting service [Tomcat]
+6473 [main] INFO  o.a.catalina.core.StandardEngine – Starting Servlet engine: [Apache Tomcat/9.0.62]
+6682 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] – Initializing Spring embedded WebApplicationContext
+6683 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext – Root WebApplicationContext: initialization completed in 4188 ms
+7009 [main] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Starting...
+7629 [main] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Start completed.
+7996 [main] INFO  o.h.jpa.internal.util.LogHelper – HHH000204: Processing PersistenceUnitInfo [name: default]
+8266 [main] INFO  org.hibernate.Version – HHH000412: Hibernate ORM core version 5.6.8.Final
+8755 [main] INFO  o.h.annotations.common.Version – HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+9194 [main] INFO  org.hibernate.dialect.Dialect – HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+10863 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator – HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+10888 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean – Initialized JPA EntityManagerFactory for persistence unit 'default'
+11945 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration – spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+12637 [main] INFO  o.a.coyote.http11.Http11NioProtocol – Starting ProtocolHandler ["http-nio-8000"]
+12684 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer – Tomcat started on port(s): 8000 (http) with context path ''
+12705 [main] INFO  ru.mirea.task20.Application – Started Application in 11.924 seconds (JVM running for 13.233)
+133173 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean – Closing JPA EntityManagerFactory for persistence unit 'default'
+133186 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Shutdown initiated...
+133240 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Shutdown completed.
+2054 [background-preinit] INFO  o.h.validator.internal.util.Version – HV000001: Hibernate Validator 6.2.3.Final
+2071 [main] INFO  ru.mirea.task20.Application – Starting Application using Java 17 on ASUSLaptop-X509DA-D509DA with PID 79288 (/media/shiwarai/YandexDisk/Учёба/Шаблоны Java/JavaPatternMirea/src/ru/mirea/task20/build/classes/java/main started by shiwarai in /media/shiwarai/YandexDisk/Учёба/Шаблоны Java/JavaPatternMirea/src/ru/mirea/task20)
+2073 [main] INFO  ru.mirea.task20.Application – No active profile set, falling back to 1 default profile: "default"
+3657 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+3809 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Finished Spring Data repository scanning in 133 ms. Found 2 JPA repository interfaces.
+5480 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer – Tomcat initialized with port(s): 8000 (http)
+5497 [main] INFO  o.a.coyote.http11.Http11NioProtocol – Initializing ProtocolHandler ["http-nio-8000"]
+5499 [main] INFO  o.a.catalina.core.StandardService – Starting service [Tomcat]
+5500 [main] INFO  o.a.catalina.core.StandardEngine – Starting Servlet engine: [Apache Tomcat/9.0.62]
+5718 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] – Initializing Spring embedded WebApplicationContext
+5719 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext – Root WebApplicationContext: initialization completed in 3565 ms
+5978 [main] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Starting...
+6619 [main] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Start completed.
+6857 [main] INFO  o.h.jpa.internal.util.LogHelper – HHH000204: Processing PersistenceUnitInfo [name: default]
+7052 [main] INFO  org.hibernate.Version – HHH000412: Hibernate ORM core version 5.6.8.Final
+7432 [main] INFO  o.h.annotations.common.Version – HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+7766 [main] INFO  org.hibernate.dialect.Dialect – HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+9639 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator – HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+9679 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean – Initialized JPA EntityManagerFactory for persistence unit 'default'
+10685 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration – spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+11334 [main] INFO  o.a.coyote.http11.Http11NioProtocol – Starting ProtocolHandler ["http-nio-8000"]
+11362 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer – Tomcat started on port(s): 8000 (http) with context path ''
+11376 [main] INFO  ru.mirea.task20.Application – Started Application in 10.413 seconds (JVM running for 12.322)
+14409 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean – Closing JPA EntityManagerFactory for persistence unit 'default'
+14414 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Shutdown initiated...
+14425 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Shutdown completed.
+2097 [background-preinit] INFO  o.h.validator.internal.util.Version – HV000001: Hibernate Validator 6.2.3.Final
+2126 [main] INFO  ru.mirea.task20.Application – Starting Application using Java 17 on ASUSLaptop-X509DA-D509DA with PID 79680 (/media/shiwarai/YandexDisk/Учёба/Шаблоны Java/JavaPatternMirea/src/ru/mirea/task20/build/classes/java/main started by shiwarai in /media/shiwarai/YandexDisk/Учёба/Шаблоны Java/JavaPatternMirea/src/ru/mirea/task20)
+2128 [main] INFO  ru.mirea.task20.Application – No active profile set, falling back to 1 default profile: "default"
+3603 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+3862 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Finished Spring Data repository scanning in 188 ms. Found 2 JPA repository interfaces.
+6124 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer – Tomcat initialized with port(s): 8000 (http)
+6146 [main] INFO  o.a.coyote.http11.Http11NioProtocol – Initializing ProtocolHandler ["http-nio-8000"]
+6147 [main] INFO  o.a.catalina.core.StandardService – Starting service [Tomcat]
+6147 [main] INFO  o.a.catalina.core.StandardEngine – Starting Servlet engine: [Apache Tomcat/9.0.62]
+6413 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] – Initializing Spring embedded WebApplicationContext
+6415 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext – Root WebApplicationContext: initialization completed in 4162 ms
+6841 [main] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Starting...
+7514 [main] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Start completed.
+7794 [main] INFO  o.h.jpa.internal.util.LogHelper – HHH000204: Processing PersistenceUnitInfo [name: default]
+8018 [main] INFO  org.hibernate.Version – HHH000412: Hibernate ORM core version 5.6.8.Final
+8473 [main] INFO  o.h.annotations.common.Version – HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+8899 [main] INFO  org.hibernate.dialect.Dialect – HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+10715 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator – HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+10756 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean – Initialized JPA EntityManagerFactory for persistence unit 'default'
+11719 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration – spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+12368 [main] INFO  o.a.coyote.http11.Http11NioProtocol – Starting ProtocolHandler ["http-nio-8000"]
+12401 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer – Tomcat started on port(s): 8000 (http) with context path ''
+12419 [main] INFO  ru.mirea.task20.Application – Started Application in 11.253 seconds (JVM running for 12.872)
+43845 [http-nio-8000-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] – Initializing Spring DispatcherServlet 'dispatcherServlet'
+43860 [http-nio-8000-exec-2] INFO  o.s.web.servlet.DispatcherServlet – Initializing Servlet 'dispatcherServlet'
+44152 [http-nio-8000-exec-2] INFO  o.s.web.servlet.DispatcherServlet – Completed initialization in 291 ms
+45867 [http-nio-8000-exec-2] INFO  ru.mirea.task20.AOPAspect – AddressService.filterBy(..)
+45898 [http-nio-8000-exec-2] INFO  ru.mirea.task20.AOPAspect – Method: filterBy from class ru.mirea.task20.services.AddressService[Ljava.lang.Object;@31da6a07 persist for 1071 ms with parametrs{}: [Moscow, null]
+92622 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean – Closing JPA EntityManagerFactory for persistence unit 'default'
+93084 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Shutdown initiated...
+93364 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Shutdown completed.

@@ -6082,3 +6082,290 @@ org.springframework.security.authentication.InternalAuthenticationServiceExcepti
 44824 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean – Closing JPA EntityManagerFactory for persistence unit 'default'
 44895 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Shutdown initiated...
 45338 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Shutdown completed.
+2081 [background-preinit] INFO  o.h.validator.internal.util.Version – HV000001: Hibernate Validator 6.2.3.Final
+2110 [main] INFO  ru.mirea.task23.Application – Starting Application using Java 17 on ASUSLaptop-X509DA-D509DA with PID 27677 (/media/shiwarai/YandexDisk/Учёба/Шаблоны Java/JavaPatternMirea/src/ru/mirea/task23/build/classes/java/main started by shiwarai in /media/shiwarai/YandexDisk/Учёба/Шаблоны Java/JavaPatternMirea/src/ru/mirea/task23)
+2112 [main] INFO  ru.mirea.task23.Application – No active profile set, falling back to 1 default profile: "default"
+3697 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+3818 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Finished Spring Data repository scanning in 99 ms. Found 3 JPA repository interfaces.
+5772 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer – Tomcat initialized with port(s): 8000 (http)
+5795 [main] INFO  o.a.coyote.http11.Http11NioProtocol – Initializing ProtocolHandler ["http-nio-8000"]
+5796 [main] INFO  o.a.catalina.core.StandardService – Starting service [Tomcat]
+5796 [main] INFO  o.a.catalina.core.StandardEngine – Starting Servlet engine: [Apache Tomcat/9.0.62]
+6184 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] – Initializing Spring embedded WebApplicationContext
+6185 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext – Root WebApplicationContext: initialization completed in 3968 ms
+6457 [main] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Starting...
+7161 [main] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Start completed.
+7406 [main] INFO  o.h.jpa.internal.util.LogHelper – HHH000204: Processing PersistenceUnitInfo [name: default]
+7603 [main] INFO  org.hibernate.Version – HHH000412: Hibernate ORM core version 5.6.8.Final
+8028 [main] INFO  o.h.annotations.common.Version – HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+8386 [main] INFO  org.hibernate.dialect.Dialect – HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+9910 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator – HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+9933 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean – Initialized JPA EntityManagerFactory for persistence unit 'default'
+10752 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration – spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+11348 [main] INFO  o.s.s.w.DefaultSecurityFilterChain – Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@d17d554, org.springframework.security.web.context.SecurityContextPersistenceFilter@39fb5ddf, org.springframework.security.web.header.HeaderWriterFilter@4ddb9a8, org.springframework.security.web.authentication.logout.LogoutFilter@4db4431b, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@703a2bc9, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@49b180c8, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3e170abe, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1f1c7fde, org.springframework.security.web.session.SessionManagementFilter@4c3c31a5, org.springframework.security.web.access.ExceptionTranslationFilter@55cc4c61, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@8b1bfdf]
+12135 [main] INFO  o.a.coyote.http11.Http11NioProtocol – Starting ProtocolHandler ["http-nio-8000"]
+12167 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer – Tomcat started on port(s): 8000 (http) with context path ''
+12192 [main] INFO  ru.mirea.task23.Application – Started Application in 11.264 seconds (JVM running for 12.629)
+12208 [main] INFO  r.m.t.services.UserRepositoryInit – Insert users
+12794 [main] INFO  ru.mirea.task23.AOPAspect – UserRepositoryInit.run(..)
+12805 [main] INFO  ru.mirea.task23.AOPAspect – Method: run from class ru.mirea.task23.services.UserRepositoryInit[Ljava.lang.Object;@69e736bf persist for 590 ms with parametrs{}: [[Ljava.lang.String;@48d14ea0]
+180456 [http-nio-8000-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] – Initializing Spring DispatcherServlet 'dispatcherServlet'
+180466 [http-nio-8000-exec-2] INFO  o.s.web.servlet.DispatcherServlet – Initializing Servlet 'dispatcherServlet'
+180529 [http-nio-8000-exec-2] INFO  o.s.web.servlet.DispatcherServlet – Completed initialization in 63 ms
+309162 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean – Closing JPA EntityManagerFactory for persistence unit 'default'
+309270 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Shutdown initiated...
+309584 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Shutdown completed.
+1884 [background-preinit] INFO  o.h.validator.internal.util.Version – HV000001: Hibernate Validator 6.2.3.Final
+1914 [main] INFO  ru.mirea.task23.Application – Starting Application using Java 17 on ASUSLaptop-X509DA-D509DA with PID 28047 (/media/shiwarai/YandexDisk/Учёба/Шаблоны Java/JavaPatternMirea/src/ru/mirea/task23/build/classes/java/main started by shiwarai in /media/shiwarai/YandexDisk/Учёба/Шаблоны Java/JavaPatternMirea/src/ru/mirea/task23)
+1916 [main] INFO  ru.mirea.task23.Application – No active profile set, falling back to 1 default profile: "default"
+3655 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+3793 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Finished Spring Data repository scanning in 116 ms. Found 3 JPA repository interfaces.
+6350 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer – Tomcat initialized with port(s): 8000 (http)
+6381 [main] INFO  o.a.coyote.http11.Http11NioProtocol – Initializing ProtocolHandler ["http-nio-8000"]
+6382 [main] INFO  o.a.catalina.core.StandardService – Starting service [Tomcat]
+6383 [main] INFO  o.a.catalina.core.StandardEngine – Starting Servlet engine: [Apache Tomcat/9.0.62]
+6664 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] – Initializing Spring embedded WebApplicationContext
+6665 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext – Root WebApplicationContext: initialization completed in 4605 ms
+6951 [main] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Starting...
+7522 [main] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Start completed.
+7782 [main] INFO  o.h.jpa.internal.util.LogHelper – HHH000204: Processing PersistenceUnitInfo [name: default]
+7972 [main] INFO  org.hibernate.Version – HHH000412: Hibernate ORM core version 5.6.8.Final
+8508 [main] INFO  o.h.annotations.common.Version – HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+8838 [main] INFO  org.hibernate.dialect.Dialect – HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+10363 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator – HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+10387 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean – Initialized JPA EntityManagerFactory for persistence unit 'default'
+11224 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration – spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+11827 [main] INFO  o.s.s.w.DefaultSecurityFilterChain – Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@483ed60e, org.springframework.security.web.context.SecurityContextPersistenceFilter@70273633, org.springframework.security.web.header.HeaderWriterFilter@296a71df, org.springframework.security.web.authentication.logout.LogoutFilter@37393dab, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@5b31a9e3, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@10e4cc6, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@69dc7b24, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5e5a2b74, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@9c5d76b, org.springframework.security.web.session.SessionManagementFilter@52849956, org.springframework.security.web.access.ExceptionTranslationFilter@458b4487, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@2acbe46d]
+12666 [main] INFO  o.a.coyote.http11.Http11NioProtocol – Starting ProtocolHandler ["http-nio-8000"]
+12696 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer – Tomcat started on port(s): 8000 (http) with context path ''
+12720 [main] INFO  ru.mirea.task23.Application – Started Application in 11.806 seconds (JVM running for 13.087)
+12736 [main] INFO  r.m.t.services.UserRepositoryInit – Insert users
+13308 [main] INFO  ru.mirea.task23.AOPAspect – UserRepositoryInit.run(..)
+13330 [main] INFO  ru.mirea.task23.AOPAspect – Method: run from class ru.mirea.task23.services.UserRepositoryInit[Ljava.lang.Object;@7307ae6 persist for 577 ms with parametrs{}: [[Ljava.lang.String;@613ba54e]
+49515 [http-nio-8000-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] – Initializing Spring DispatcherServlet 'dispatcherServlet'
+49544 [http-nio-8000-exec-1] INFO  o.s.web.servlet.DispatcherServlet – Initializing Servlet 'dispatcherServlet'
+49673 [http-nio-8000-exec-1] INFO  o.s.web.servlet.DispatcherServlet – Completed initialization in 128 ms
+65487 [http-nio-8000-exec-3] INFO  ru.mirea.task23.AOPAspect – UserAppService.loadUserByUsername(..)
+65493 [http-nio-8000-exec-3] INFO  ru.mirea.task23.AOPAspect – Method: loadUserByUsername from class ru.mirea.task23.services.UserAppService[Ljava.lang.Object;@3d47d6d6 persist for 539 ms with parametrs{}: [test]
+65508 [http-nio-8000-exec-3] ERROR o.s.s.w.a.UsernamePasswordAuthenticationFilter – An internal error occurred while trying to authenticate the user.
+org.springframework.security.authentication.InternalAuthenticationServiceException: UserDetailsService returned null, which is an interface contract violation
+	at org.springframework.security.authentication.dao.DaoAuthenticationProvider.retrieveUser(DaoAuthenticationProvider.java:95)
+	at org.springframework.security.authentication.dao.AbstractUserDetailsAuthenticationProvider.authenticate(AbstractUserDetailsAuthenticationProvider.java:133)
+	at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:182)
+	at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:201)
+	at org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter.attemptAuthentication(UsernamePasswordAuthenticationFilter.java:85)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:223)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:213)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:103)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:89)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:110)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:80)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:55)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:211)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:183)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:354)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:267)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+68094 [http-nio-8000-exec-5] INFO  ru.mirea.task23.AOPAspect – UserAppService.loadUserByUsername(..)
+68095 [http-nio-8000-exec-5] INFO  ru.mirea.task23.AOPAspect – Method: loadUserByUsername from class ru.mirea.task23.services.UserAppService[Ljava.lang.Object;@431fc173 persist for 8 ms with parametrs{}: [test]
+68097 [http-nio-8000-exec-5] ERROR o.s.s.w.a.UsernamePasswordAuthenticationFilter – An internal error occurred while trying to authenticate the user.
+org.springframework.security.authentication.InternalAuthenticationServiceException: UserDetailsService returned null, which is an interface contract violation
+	at org.springframework.security.authentication.dao.DaoAuthenticationProvider.retrieveUser(DaoAuthenticationProvider.java:95)
+	at org.springframework.security.authentication.dao.AbstractUserDetailsAuthenticationProvider.authenticate(AbstractUserDetailsAuthenticationProvider.java:133)
+	at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:182)
+	at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:201)
+	at org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter.attemptAuthentication(UsernamePasswordAuthenticationFilter.java:85)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:223)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:213)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:103)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:89)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:110)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:80)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:55)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:211)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:183)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:354)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:267)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+75404 [http-nio-8000-exec-7] INFO  ru.mirea.task23.AOPAspect – UserAppService.loadUserByUsername(..)
+75404 [http-nio-8000-exec-7] INFO  ru.mirea.task23.AOPAspect – Method: loadUserByUsername from class ru.mirea.task23.services.UserAppService[Ljava.lang.Object;@26775313 persist for 17 ms with parametrs{}: [shiwarai]
+83048 [http-nio-8000-exec-1] INFO  ru.mirea.task23.AOPAspect – UserAppService.loadUserByUsername(..)
+83049 [http-nio-8000-exec-1] INFO  ru.mirea.task23.AOPAspect – Method: loadUserByUsername from class ru.mirea.task23.services.UserAppService[Ljava.lang.Object;@717e5dcb persist for 6 ms with parametrs{}: [shiwarai]
+163135 [http-nio-8000-exec-9] INFO  ru.mirea.task23.AOPAspect – UserAppService.loadUserByUsername(..)
+163149 [http-nio-8000-exec-9] INFO  ru.mirea.task23.AOPAspect – Method: loadUserByUsername from class ru.mirea.task23.services.UserAppService[Ljava.lang.Object;@b45168e persist for 160 ms with parametrs{}: [shiwarai]
+163801 [http-nio-8000-exec-9] INFO  ru.mirea.task23.AOPAspect – BuildingService.readAllEntity()
+163801 [http-nio-8000-exec-9] INFO  ru.mirea.task23.AOPAspect – Method: readAllEntity from class ru.mirea.task23.services.BuildingService[Ljava.lang.Object;@90ddcf persist for 382 ms with parametrs{}: []
+167725 [http-nio-8000-exec-10] INFO  ru.mirea.task23.AOPAspect – BuildingService.readAllEntity()
+167726 [http-nio-8000-exec-10] INFO  ru.mirea.task23.AOPAspect – Method: readAllEntity from class ru.mirea.task23.services.BuildingService[Ljava.lang.Object;@3c3f1135 persist for 5 ms with parametrs{}: []
+170057 [http-nio-8000-exec-1] INFO  ru.mirea.task23.AOPAspect – UserAppService.loadUserByUsername(..)
+170058 [http-nio-8000-exec-1] INFO  ru.mirea.task23.AOPAspect – Method: loadUserByUsername from class ru.mirea.task23.services.UserAppService[Ljava.lang.Object;@234c7a59 persist for 9 ms with parametrs{}: [shiwara]
+200589 [http-nio-8000-exec-4] INFO  ru.mirea.task23.AOPAspect – UserAppService.loadUserByUsername(..)
+200638 [http-nio-8000-exec-4] INFO  ru.mirea.task23.AOPAspect – Method: loadUserByUsername from class ru.mirea.task23.services.UserAppService[Ljava.lang.Object;@3b6aae18 persist for 199 ms with parametrs{}: [shiwarai]
+208325 [http-nio-8000-exec-7] INFO  ru.mirea.task23.AOPAspect – BuildingService.readAllEntity()
+208326 [http-nio-8000-exec-7] INFO  ru.mirea.task23.AOPAspect – Method: readAllEntity from class ru.mirea.task23.services.BuildingService[Ljava.lang.Object;@7d8fe0bd persist for 53 ms with parametrs{}: []
+270638 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean – Closing JPA EntityManagerFactory for persistence unit 'default'
+270748 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Shutdown initiated...
+270971 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Shutdown completed.
+1623 [background-preinit] INFO  o.h.validator.internal.util.Version – HV000001: Hibernate Validator 6.2.3.Final
+1662 [main] INFO  ru.mirea.task23.Application – Starting Application using Java 17 on ASUSLaptop-X509DA-D509DA with PID 28470 (/media/shiwarai/YandexDisk/Учёба/Шаблоны Java/JavaPatternMirea/src/ru/mirea/task23/build/classes/java/main started by shiwarai in /media/shiwarai/YandexDisk/Учёба/Шаблоны Java/JavaPatternMirea/src/ru/mirea/task23)
+1663 [main] INFO  ru.mirea.task23.Application – No active profile set, falling back to 1 default profile: "default"
+3382 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+3498 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Finished Spring Data repository scanning in 95 ms. Found 3 JPA repository interfaces.
+5648 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer – Tomcat initialized with port(s): 8000 (http)
+5672 [main] INFO  o.a.coyote.http11.Http11NioProtocol – Initializing ProtocolHandler ["http-nio-8000"]
+5673 [main] INFO  o.a.catalina.core.StandardService – Starting service [Tomcat]
+5673 [main] INFO  o.a.catalina.core.StandardEngine – Starting Servlet engine: [Apache Tomcat/9.0.62]
+5915 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] – Initializing Spring embedded WebApplicationContext
+5915 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext – Root WebApplicationContext: initialization completed in 4089 ms
+6412 [main] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Starting...
+7697 [main] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Start completed.
+8279 [main] INFO  o.h.jpa.internal.util.LogHelper – HHH000204: Processing PersistenceUnitInfo [name: default]
+8724 [main] INFO  org.hibernate.Version – HHH000412: Hibernate ORM core version 5.6.8.Final
+9661 [main] INFO  o.h.annotations.common.Version – HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+10353 [main] INFO  org.hibernate.dialect.Dialect – HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+13673 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator – HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+13738 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean – Initialized JPA EntityManagerFactory for persistence unit 'default'
+14855 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration – spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+15607 [main] INFO  o.s.s.w.DefaultSecurityFilterChain – Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@799fc4c9, org.springframework.security.web.context.SecurityContextPersistenceFilter@759b05d1, org.springframework.security.web.header.HeaderWriterFilter@630febd7, org.springframework.security.web.authentication.logout.LogoutFilter@3fdbb7ee, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@7dfab58d, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@5036a286, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@ea45a5b, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@53016c98, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@44428583, org.springframework.security.web.session.SessionManagementFilter@408d12fc, org.springframework.security.web.access.ExceptionTranslationFilter@21948bd1, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@2cb53bfc]
+17074 [main] INFO  o.a.coyote.http11.Http11NioProtocol – Starting ProtocolHandler ["http-nio-8000"]
+17130 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer – Tomcat started on port(s): 8000 (http) with context path ''
+17161 [main] INFO  ru.mirea.task23.Application – Started Application in 16.336 seconds (JVM running for 17.47)
+17193 [main] INFO  r.m.t.services.UserRepositoryInit – Insert users
+18450 [main] INFO  ru.mirea.task23.AOPAspect – UserRepositoryInit.run(..)
+18463 [main] INFO  ru.mirea.task23.AOPAspect – Method: run from class ru.mirea.task23.services.UserRepositoryInit[Ljava.lang.Object;@1ee126de persist for 1263 ms with parametrs{}: [[Ljava.lang.String;@533a27f8]
+23073 [http-nio-8000-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] – Initializing Spring DispatcherServlet 'dispatcherServlet'
+23073 [http-nio-8000-exec-1] INFO  o.s.web.servlet.DispatcherServlet – Initializing Servlet 'dispatcherServlet'
+23077 [http-nio-8000-exec-1] INFO  o.s.web.servlet.DispatcherServlet – Completed initialization in 3 ms
+36375 [http-nio-8000-exec-5] INFO  ru.mirea.task23.AOPAspect – UserAppService.loadUserByUsername(..)
+36391 [http-nio-8000-exec-5] INFO  ru.mirea.task23.AOPAspect – Method: loadUserByUsername from class ru.mirea.task23.services.UserAppService[Ljava.lang.Object;@5c369d1d persist for 1117 ms with parametrs{}: [shiwarai]
+53797 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean – Closing JPA EntityManagerFactory for persistence unit 'default'
+53872 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Shutdown initiated...
+53978 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Shutdown completed.
+1986 [background-preinit] INFO  o.h.validator.internal.util.Version – HV000001: Hibernate Validator 6.2.3.Final
+2081 [main] INFO  ru.mirea.task23.Application – Starting Application using Java 17 on ASUSLaptop-X509DA-D509DA with PID 28685 (/media/shiwarai/YandexDisk/Учёба/Шаблоны Java/JavaPatternMirea/src/ru/mirea/task23/build/classes/java/main started by shiwarai in /media/shiwarai/YandexDisk/Учёба/Шаблоны Java/JavaPatternMirea/src/ru/mirea/task23)
+2084 [main] INFO  ru.mirea.task23.Application – No active profile set, falling back to 1 default profile: "default"
+4822 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+5022 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Finished Spring Data repository scanning in 163 ms. Found 3 JPA repository interfaces.
+7921 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer – Tomcat initialized with port(s): 8000 (http)
+7958 [main] INFO  o.a.coyote.http11.Http11NioProtocol – Initializing ProtocolHandler ["http-nio-8000"]
+7959 [main] INFO  o.a.catalina.core.StandardService – Starting service [Tomcat]
+7960 [main] INFO  o.a.catalina.core.StandardEngine – Starting Servlet engine: [Apache Tomcat/9.0.62]
+8230 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] – Initializing Spring embedded WebApplicationContext
+8231 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext – Root WebApplicationContext: initialization completed in 6017 ms
+8546 [main] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Starting...
+9246 [main] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Start completed.
+9686 [main] INFO  o.h.jpa.internal.util.LogHelper – HHH000204: Processing PersistenceUnitInfo [name: default]
+10018 [main] INFO  org.hibernate.Version – HHH000412: Hibernate ORM core version 5.6.8.Final
+10710 [main] INFO  o.h.annotations.common.Version – HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+11101 [main] INFO  org.hibernate.dialect.Dialect – HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+12946 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator – HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+12973 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean – Initialized JPA EntityManagerFactory for persistence unit 'default'
+14258 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration – spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+14949 [main] INFO  o.s.s.w.DefaultSecurityFilterChain – Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@483ed60e, org.springframework.security.web.context.SecurityContextPersistenceFilter@69dc7b24, org.springframework.security.web.header.HeaderWriterFilter@52849956, org.springframework.security.web.authentication.logout.LogoutFilter@1361e880, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@5b31a9e3, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@53b8a0f7, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@602b7944, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@50628080, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@9c5d76b, org.springframework.security.web.session.SessionManagementFilter@70273633, org.springframework.security.web.access.ExceptionTranslationFilter@296a71df, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@2acbe46d]
+15922 [main] INFO  o.a.coyote.http11.Http11NioProtocol – Starting ProtocolHandler ["http-nio-8000"]
+15973 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer – Tomcat started on port(s): 8000 (http) with context path ''
+16052 [main] INFO  ru.mirea.task23.Application – Started Application in 15.245 seconds (JVM running for 16.867)
+20639 [http-nio-8000-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] – Initializing Spring DispatcherServlet 'dispatcherServlet'
+20639 [http-nio-8000-exec-2] INFO  o.s.web.servlet.DispatcherServlet – Initializing Servlet 'dispatcherServlet'
+20642 [http-nio-8000-exec-2] INFO  o.s.web.servlet.DispatcherServlet – Completed initialization in 2 ms
+21050 [http-nio-8000-exec-2] INFO  ru.mirea.task23.AOPAspect – UserAppService.signUpUser(..)
+21064 [http-nio-8000-exec-2] INFO  ru.mirea.task23.AOPAspect – Method: signUpUser from class ru.mirea.task23.services.UserAppService[Ljava.lang.Object;@6419e993 persist for 298 ms with parametrs{}: [ru.mirea.task23.tables.User@17d92f68]
+51192 [http-nio-8000-exec-5] INFO  ru.mirea.task23.AOPAspect – UserAppService.loadUserByUsername(..)
+51193 [http-nio-8000-exec-5] INFO  ru.mirea.task23.AOPAspect – Method: loadUserByUsername from class ru.mirea.task23.services.UserAppService[Ljava.lang.Object;@7311bfe9 persist for 120 ms with parametrs{}: [shiwarai]
+85635 [http-nio-8000-exec-9] INFO  ru.mirea.task23.AOPAspect – UserAppService.loadUserByUsername(..)
+85758 [http-nio-8000-exec-9] INFO  ru.mirea.task23.AOPAspect – Method: loadUserByUsername from class ru.mirea.task23.services.UserAppService[Ljava.lang.Object;@179bf532 persist for 489 ms with parametrs{}: [shiwara]
+88500 [http-nio-8000-exec-10] INFO  ru.mirea.task23.AOPAspect – UserAppService.loadUserByUsername(..)
+88501 [http-nio-8000-exec-10] INFO  ru.mirea.task23.AOPAspect – Method: loadUserByUsername from class ru.mirea.task23.services.UserAppService[Ljava.lang.Object;@e8ad8c4 persist for 46 ms with parametrs{}: [shiwarai]
+90229 [http-nio-8000-exec-10] INFO  ru.mirea.task23.AOPAspect – BuildingService.readAllEntity()
+90230 [http-nio-8000-exec-10] INFO  ru.mirea.task23.AOPAspect – Method: readAllEntity from class ru.mirea.task23.services.BuildingService[Ljava.lang.Object;@3f80404a persist for 1289 ms with parametrs{}: []
+100676 [http-nio-8000-exec-1] INFO  ru.mirea.task23.AOPAspect – UserAppService.loadUserByUsername(..)
+100680 [http-nio-8000-exec-1] INFO  ru.mirea.task23.AOPAspect – Method: loadUserByUsername from class ru.mirea.task23.services.UserAppService[Ljava.lang.Object;@2debf622 persist for 57 ms with parametrs{}: [tester]
+105572 [http-nio-8000-exec-2] INFO  ru.mirea.task23.AOPAspect – UserAppService.loadUserByUsername(..)
+105572 [http-nio-8000-exec-2] INFO  ru.mirea.task23.AOPAspect – Method: loadUserByUsername from class ru.mirea.task23.services.UserAppService[Ljava.lang.Object;@594969e9 persist for 12 ms with parametrs{}: [test]
+110210 [http-nio-8000-exec-4] INFO  ru.mirea.task23.AOPAspect – UserAppService.loadUserByUsername(..)
+110210 [http-nio-8000-exec-4] INFO  ru.mirea.task23.AOPAspect – Method: loadUserByUsername from class ru.mirea.task23.services.UserAppService[Ljava.lang.Object;@68e4a239 persist for 23 ms with parametrs{}: [test]
+121063 [http-nio-8000-exec-8] INFO  ru.mirea.task23.AOPAspect – UserAppService.loadUserByUsername(..)
+121065 [http-nio-8000-exec-8] INFO  ru.mirea.task23.AOPAspect – Method: loadUserByUsername from class ru.mirea.task23.services.UserAppService[Ljava.lang.Object;@48b374fd persist for 5 ms with parametrs{}: [test]
+135814 [http-nio-8000-exec-9] INFO  ru.mirea.task23.AOPAspect – UserAppService.loadUserByUsername(..)
+135814 [http-nio-8000-exec-9] INFO  ru.mirea.task23.AOPAspect – Method: loadUserByUsername from class ru.mirea.task23.services.UserAppService[Ljava.lang.Object;@66168853 persist for 16 ms with parametrs{}: [shiwarai]
+135898 [http-nio-8000-exec-9] INFO  ru.mirea.task23.AOPAspect – BuildingService.readAllEntity()
+135899 [http-nio-8000-exec-9] INFO  ru.mirea.task23.AOPAspect – Method: readAllEntity from class ru.mirea.task23.services.BuildingService[Ljava.lang.Object;@4480ad8a persist for 5 ms with parametrs{}: []
+157386 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean – Closing JPA EntityManagerFactory for persistence unit 'default'
+157420 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Shutdown initiated...
+157534 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Shutdown completed.

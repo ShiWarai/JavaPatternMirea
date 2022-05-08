@@ -1,0 +1,2 @@
+Building{creationDate='19.01.2014', type='simple'}
+Building{creationDate='19.01.2014', type='simple'}

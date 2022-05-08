@@ -1,0 +1,676 @@
+2435 [background-preinit] INFO  o.h.validator.internal.util.Version – HV000001: Hibernate Validator 6.2.3.Final
+2504 [main] INFO  ru.mirea.task22.Application – Starting Application using Java 17 on ASUSLaptop-X509DA-D509DA with PID 20069 (/media/shiwarai/YandexDisk/Учёба/Шаблоны Java/JavaPatternMirea/src/ru/mirea/task22/build/classes/java/main started by shiwarai in /media/shiwarai/YandexDisk/Учёба/Шаблоны Java/JavaPatternMirea/src/ru/mirea/task22)
+2506 [main] INFO  ru.mirea.task22.Application – No active profile set, falling back to 1 default profile: "default"
+5022 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+5313 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Finished Spring Data repository scanning in 229 ms. Found 2 JPA repository interfaces.
+8394 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer – Tomcat initialized with port(s): 8000 (http)
+8418 [main] INFO  o.a.coyote.http11.Http11NioProtocol – Initializing ProtocolHandler ["http-nio-8000"]
+8419 [main] INFO  o.a.catalina.core.StandardService – Starting service [Tomcat]
+8419 [main] INFO  o.a.catalina.core.StandardEngine – Starting Servlet engine: [Apache Tomcat/9.0.62]
+8775 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] – Initializing Spring embedded WebApplicationContext
+8776 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext – Root WebApplicationContext: initialization completed in 6113 ms
+9301 [main] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Starting...
+10344 [main] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Start completed.
+10968 [main] INFO  o.h.jpa.internal.util.LogHelper – HHH000204: Processing PersistenceUnitInfo [name: default]
+11238 [main] INFO  org.hibernate.Version – HHH000412: Hibernate ORM core version 5.6.8.Final
+12183 [main] INFO  o.h.annotations.common.Version – HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+12729 [main] INFO  org.hibernate.dialect.Dialect – HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+14886 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator – HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+14917 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean – Initialized JPA EntityManagerFactory for persistence unit 'default'
+16093 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration – spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+17036 [main] INFO  o.a.coyote.http11.Http11NioProtocol – Starting ProtocolHandler ["http-nio-8000"]
+17097 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer – Tomcat started on port(s): 8000 (http) with context path ''
+17147 [main] INFO  ru.mirea.task22.Application – Started Application in 16.219 seconds (JVM running for 17.572)
+84751 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean – Closing JPA EntityManagerFactory for persistence unit 'default'
+84802 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Shutdown initiated...
+84980 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Shutdown completed.
+2477 [background-preinit] INFO  o.h.validator.internal.util.Version – HV000001: Hibernate Validator 6.2.3.Final
+2535 [main] INFO  ru.mirea.task22.Application – Starting Application using Java 17 on ASUSLaptop-X509DA-D509DA with PID 20282 (/media/shiwarai/YandexDisk/Учёба/Шаблоны Java/JavaPatternMirea/src/ru/mirea/task22/build/classes/java/main started by shiwarai in /media/shiwarai/YandexDisk/Учёба/Шаблоны Java/JavaPatternMirea/src/ru/mirea/task22)
+2537 [main] INFO  ru.mirea.task22.Application – No active profile set, falling back to 1 default profile: "default"
+4277 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+4405 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Finished Spring Data repository scanning in 102 ms. Found 2 JPA repository interfaces.
+6387 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer – Tomcat initialized with port(s): 8000 (http)
+6436 [main] INFO  o.a.coyote.http11.Http11NioProtocol – Initializing ProtocolHandler ["http-nio-8000"]
+6437 [main] INFO  o.a.catalina.core.StandardService – Starting service [Tomcat]
+6437 [main] INFO  o.a.catalina.core.StandardEngine – Starting Servlet engine: [Apache Tomcat/9.0.62]
+6753 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] – Initializing Spring embedded WebApplicationContext
+6753 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext – Root WebApplicationContext: initialization completed in 4101 ms
+6990 [main] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Starting...
+7711 [main] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Start completed.
+8170 [main] INFO  o.h.jpa.internal.util.LogHelper – HHH000204: Processing PersistenceUnitInfo [name: default]
+8591 [main] INFO  org.hibernate.Version – HHH000412: Hibernate ORM core version 5.6.8.Final
+9227 [main] INFO  o.h.annotations.common.Version – HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+9701 [main] INFO  org.hibernate.dialect.Dialect – HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+11595 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator – HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+11617 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean – Initialized JPA EntityManagerFactory for persistence unit 'default'
+13161 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration – spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+14665 [main] INFO  o.a.coyote.http11.Http11NioProtocol – Starting ProtocolHandler ["http-nio-8000"]
+14804 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer – Tomcat started on port(s): 8000 (http) with context path ''
+14850 [main] INFO  ru.mirea.task22.Application – Started Application in 13.875 seconds (JVM running for 15.414)
+990175 [http-nio-8000-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] – Initializing Spring DispatcherServlet 'dispatcherServlet'
+990247 [http-nio-8000-exec-1] INFO  o.s.web.servlet.DispatcherServlet – Initializing Servlet 'dispatcherServlet'
+990426 [http-nio-8000-exec-1] INFO  o.s.web.servlet.DispatcherServlet – Completed initialization in 177 ms
+995976 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean – Closing JPA EntityManagerFactory for persistence unit 'default'
+995998 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Shutdown initiated...
+996137 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Shutdown completed.
+1859 [background-preinit] INFO  o.h.validator.internal.util.Version – HV000001: Hibernate Validator 6.2.3.Final
+1981 [main] INFO  ru.mirea.task22.Application – Starting Application using Java 17 on ASUSLaptop-X509DA-D509DA with PID 30392 (/media/shiwarai/YandexDisk/Учёба/Шаблоны Java/JavaPatternMirea/src/ru/mirea/task22/build/classes/java/main started by shiwarai in /media/shiwarai/YandexDisk/Учёба/Шаблоны Java/JavaPatternMirea/src/ru/mirea/task22)
+1987 [main] INFO  ru.mirea.task22.Application – No active profile set, falling back to 1 default profile: "default"
+4311 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+4466 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Finished Spring Data repository scanning in 128 ms. Found 2 JPA repository interfaces.
+6445 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer – Tomcat initialized with port(s): 8000 (http)
+6471 [main] INFO  o.a.coyote.http11.Http11NioProtocol – Initializing ProtocolHandler ["http-nio-8000"]
+6472 [main] INFO  o.a.catalina.core.StandardService – Starting service [Tomcat]
+6473 [main] INFO  o.a.catalina.core.StandardEngine – Starting Servlet engine: [Apache Tomcat/9.0.62]
+6682 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] – Initializing Spring embedded WebApplicationContext
+6683 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext – Root WebApplicationContext: initialization completed in 4188 ms
+7009 [main] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Starting...
+7629 [main] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Start completed.
+7996 [main] INFO  o.h.jpa.internal.util.LogHelper – HHH000204: Processing PersistenceUnitInfo [name: default]
+8266 [main] INFO  org.hibernate.Version – HHH000412: Hibernate ORM core version 5.6.8.Final
+8755 [main] INFO  o.h.annotations.common.Version – HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+9194 [main] INFO  org.hibernate.dialect.Dialect – HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+10863 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator – HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+10888 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean – Initialized JPA EntityManagerFactory for persistence unit 'default'
+11945 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration – spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+12637 [main] INFO  o.a.coyote.http11.Http11NioProtocol – Starting ProtocolHandler ["http-nio-8000"]
+12684 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer – Tomcat started on port(s): 8000 (http) with context path ''
+12705 [main] INFO  ru.mirea.task22.Application – Started Application in 11.924 seconds (JVM running for 13.233)
+133173 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean – Closing JPA EntityManagerFactory for persistence unit 'default'
+133186 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Shutdown initiated...
+133240 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Shutdown completed.
+2054 [background-preinit] INFO  o.h.validator.internal.util.Version – HV000001: Hibernate Validator 6.2.3.Final
+2071 [main] INFO  ru.mirea.task22.Application – Starting Application using Java 17 on ASUSLaptop-X509DA-D509DA with PID 79288 (/media/shiwarai/YandexDisk/Учёба/Шаблоны Java/JavaPatternMirea/src/ru/mirea/task22/build/classes/java/main started by shiwarai in /media/shiwarai/YandexDisk/Учёба/Шаблоны Java/JavaPatternMirea/src/ru/mirea/task22)
+2073 [main] INFO  ru.mirea.task22.Application – No active profile set, falling back to 1 default profile: "default"
+3657 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+3809 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Finished Spring Data repository scanning in 133 ms. Found 2 JPA repository interfaces.
+5480 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer – Tomcat initialized with port(s): 8000 (http)
+5497 [main] INFO  o.a.coyote.http11.Http11NioProtocol – Initializing ProtocolHandler ["http-nio-8000"]
+5499 [main] INFO  o.a.catalina.core.StandardService – Starting service [Tomcat]
+5500 [main] INFO  o.a.catalina.core.StandardEngine – Starting Servlet engine: [Apache Tomcat/9.0.62]
+5718 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] – Initializing Spring embedded WebApplicationContext
+5719 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext – Root WebApplicationContext: initialization completed in 3565 ms
+5978 [main] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Starting...
+6619 [main] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Start completed.
+6857 [main] INFO  o.h.jpa.internal.util.LogHelper – HHH000204: Processing PersistenceUnitInfo [name: default]
+7052 [main] INFO  org.hibernate.Version – HHH000412: Hibernate ORM core version 5.6.8.Final
+7432 [main] INFO  o.h.annotations.common.Version – HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+7766 [main] INFO  org.hibernate.dialect.Dialect – HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+9639 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator – HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+9679 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean – Initialized JPA EntityManagerFactory for persistence unit 'default'
+10685 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration – spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+11334 [main] INFO  o.a.coyote.http11.Http11NioProtocol – Starting ProtocolHandler ["http-nio-8000"]
+11362 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer – Tomcat started on port(s): 8000 (http) with context path ''
+11376 [main] INFO  ru.mirea.task22.Application – Started Application in 10.413 seconds (JVM running for 12.322)
+14409 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean – Closing JPA EntityManagerFactory for persistence unit 'default'
+14414 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Shutdown initiated...
+14425 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Shutdown completed.
+2097 [background-preinit] INFO  o.h.validator.internal.util.Version – HV000001: Hibernate Validator 6.2.3.Final
+2126 [main] INFO  ru.mirea.task22.Application – Starting Application using Java 17 on ASUSLaptop-X509DA-D509DA with PID 79680 (/media/shiwarai/YandexDisk/Учёба/Шаблоны Java/JavaPatternMirea/src/ru/mirea/task22/build/classes/java/main started by shiwarai in /media/shiwarai/YandexDisk/Учёба/Шаблоны Java/JavaPatternMirea/src/ru/mirea/task22)
+2128 [main] INFO  ru.mirea.task22.Application – No active profile set, falling back to 1 default profile: "default"
+3603 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+3862 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Finished Spring Data repository scanning in 188 ms. Found 2 JPA repository interfaces.
+6124 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer – Tomcat initialized with port(s): 8000 (http)
+6146 [main] INFO  o.a.coyote.http11.Http11NioProtocol – Initializing ProtocolHandler ["http-nio-8000"]
+6147 [main] INFO  o.a.catalina.core.StandardService – Starting service [Tomcat]
+6147 [main] INFO  o.a.catalina.core.StandardEngine – Starting Servlet engine: [Apache Tomcat/9.0.62]
+6413 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] – Initializing Spring embedded WebApplicationContext
+6415 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext – Root WebApplicationContext: initialization completed in 4162 ms
+6841 [main] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Starting...
+7514 [main] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Start completed.
+7794 [main] INFO  o.h.jpa.internal.util.LogHelper – HHH000204: Processing PersistenceUnitInfo [name: default]
+8018 [main] INFO  org.hibernate.Version – HHH000412: Hibernate ORM core version 5.6.8.Final
+8473 [main] INFO  o.h.annotations.common.Version – HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+8899 [main] INFO  org.hibernate.dialect.Dialect – HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+10715 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator – HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+10756 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean – Initialized JPA EntityManagerFactory for persistence unit 'default'
+11719 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration – spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+12368 [main] INFO  o.a.coyote.http11.Http11NioProtocol – Starting ProtocolHandler ["http-nio-8000"]
+12401 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer – Tomcat started on port(s): 8000 (http) with context path ''
+12419 [main] INFO  ru.mirea.task22.Application – Started Application in 11.253 seconds (JVM running for 12.872)
+43845 [http-nio-8000-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] – Initializing Spring DispatcherServlet 'dispatcherServlet'
+43860 [http-nio-8000-exec-2] INFO  o.s.web.servlet.DispatcherServlet – Initializing Servlet 'dispatcherServlet'
+44152 [http-nio-8000-exec-2] INFO  o.s.web.servlet.DispatcherServlet – Completed initialization in 291 ms
+45867 [http-nio-8000-exec-2] INFO  ru.mirea.task22.AOPAspect – AddressService.filterBy(..)
+45898 [http-nio-8000-exec-2] INFO  ru.mirea.task22.AOPAspect – Method: filterBy from class ru.mirea.task22.services.AddressService[Ljava.lang.Object;@31da6a07 persist for 1071 ms with parametrs{}: [Moscow, null]
+92622 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean – Closing JPA EntityManagerFactory for persistence unit 'default'
+93084 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Shutdown initiated...
+93364 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Shutdown completed.
+2008 [background-preinit] INFO  o.h.validator.internal.util.Version – HV000001: Hibernate Validator 6.2.3.Final
+2032 [main] INFO  ru.mirea.task22.Application – Starting Application using Java 17 on ASUSLaptop-X509DA-D509DA with PID 90736 (/media/shiwarai/YandexDisk/Учёба/Шаблоны Java/JavaPatternMirea/src/ru/mirea/task22/build/classes/java/main started by shiwarai in /media/shiwarai/YandexDisk/Учёба/Шаблоны Java/JavaPatternMirea/src/ru/mirea/task22)
+2034 [main] INFO  ru.mirea.task22.Application – No active profile set, falling back to 1 default profile: "default"
+4135 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+4548 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Finished Spring Data repository scanning in 369 ms. Found 2 JPA repository interfaces.
+6441 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer – Tomcat initialized with port(s): 8000 (http)
+6462 [main] INFO  o.a.coyote.http11.Http11NioProtocol – Initializing ProtocolHandler ["http-nio-8000"]
+6463 [main] INFO  o.a.catalina.core.StandardService – Starting service [Tomcat]
+6464 [main] INFO  o.a.catalina.core.StandardEngine – Starting Servlet engine: [Apache Tomcat/9.0.62]
+6680 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] – Initializing Spring embedded WebApplicationContext
+6681 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext – Root WebApplicationContext: initialization completed in 4448 ms
+7019 [main] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Starting...
+7648 [main] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Start completed.
+7921 [main] INFO  o.h.jpa.internal.util.LogHelper – HHH000204: Processing PersistenceUnitInfo [name: default]
+8175 [main] INFO  org.hibernate.Version – HHH000412: Hibernate ORM core version 5.6.8.Final
+8907 [main] INFO  o.h.annotations.common.Version – HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+9245 [main] INFO  org.hibernate.dialect.Dialect – HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+10749 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator – HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+10775 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean – Initialized JPA EntityManagerFactory for persistence unit 'default'
+11532 [main] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor – Autowired annotation is not supported on static fields: public static java.lang.String ru.mirea.task22.services.EmailService.sender
+11799 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration – spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+12436 [main] INFO  o.a.coyote.http11.Http11NioProtocol – Starting ProtocolHandler ["http-nio-8000"]
+12491 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer – Tomcat started on port(s): 8000 (http) with context path ''
+12508 [main] INFO  ru.mirea.task22.Application – Started Application in 11.446 seconds (JVM running for 13.181)
+50901 [http-nio-8000-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] – Initializing Spring DispatcherServlet 'dispatcherServlet'
+50918 [http-nio-8000-exec-2] INFO  o.s.web.servlet.DispatcherServlet – Initializing Servlet 'dispatcherServlet'
+51135 [http-nio-8000-exec-2] INFO  o.s.web.servlet.DispatcherServlet – Completed initialization in 216 ms
+53326 [http-nio-8000-exec-2] INFO  ru.mirea.task22.AOPAspect – AddressService.createEntity(..)
+53356 [http-nio-8000-exec-2] INFO  ru.mirea.task22.AOPAspect – Method: createEntity from class ru.mirea.task22.services.AddressService[Ljava.lang.Object;@615e0e82 persist for 519 ms with parametrs{}: [Address{addressText='Moscow, Studencheskaya street', zipCode='165857'}]
+54026 [task-1] INFO  ru.mirea.task22.AOPAspect – EmailService.sendNotification(..)
+54027 [task-1] INFO  ru.mirea.task22.AOPAspect – Method: sendNotification from class ru.mirea.task22.services.EmailService[Ljava.lang.Object;@7c5f8332 persist for 705 ms with parametrs{}: [Address{addressText='Moscow, Studencheskaya street', zipCode='165857'}]
+139176 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean – Closing JPA EntityManagerFactory for persistence unit 'default'
+139290 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Shutdown initiated...
+139615 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Shutdown completed.
+2452 [main] INFO  ru.mirea.task22.Application – Starting Application using Java 17 on ASUSLaptop-X509DA-D509DA with PID 92103 (/media/shiwarai/YandexDisk/Учёба/Шаблоны Java/JavaPatternMirea/src/ru/mirea/task22/build/classes/java/main started by shiwarai in /media/shiwarai/YandexDisk/Учёба/Шаблоны Java/JavaPatternMirea/src/ru/mirea/task22)
+2457 [background-preinit] INFO  o.h.validator.internal.util.Version – HV000001: Hibernate Validator 6.2.3.Final
+2463 [main] INFO  ru.mirea.task22.Application – No active profile set, falling back to 1 default profile: "default"
+4375 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+4696 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Finished Spring Data repository scanning in 279 ms. Found 2 JPA repository interfaces.
+7620 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer – Tomcat initialized with port(s): 8000 (http)
+7649 [main] INFO  o.a.coyote.http11.Http11NioProtocol – Initializing ProtocolHandler ["http-nio-8000"]
+7651 [main] INFO  o.a.catalina.core.StandardService – Starting service [Tomcat]
+7652 [main] INFO  o.a.catalina.core.StandardEngine – Starting Servlet engine: [Apache Tomcat/9.0.62]
+7964 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] – Initializing Spring embedded WebApplicationContext
+7965 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext – Root WebApplicationContext: initialization completed in 5302 ms
+8415 [main] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Starting...
+9279 [main] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Start completed.
+9760 [main] INFO  o.h.jpa.internal.util.LogHelper – HHH000204: Processing PersistenceUnitInfo [name: default]
+9931 [main] INFO  org.hibernate.Version – HHH000412: Hibernate ORM core version 5.6.8.Final
+10459 [main] INFO  o.h.annotations.common.Version – HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+10966 [main] INFO  org.hibernate.dialect.Dialect – HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+13309 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator – HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+13345 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean – Initialized JPA EntityManagerFactory for persistence unit 'default'
+14290 [main] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor – Autowired annotation is not supported on static fields: public static java.lang.String ru.mirea.task22.services.EmailService.sender
+14654 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration – spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+15375 [main] INFO  o.a.coyote.http11.Http11NioProtocol – Starting ProtocolHandler ["http-nio-8000"]
+15487 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer – Tomcat started on port(s): 8000 (http) with context path ''
+15511 [main] INFO  ru.mirea.task22.Application – Started Application in 14.496 seconds (JVM running for 16.014)
+27390 [http-nio-8000-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] – Initializing Spring DispatcherServlet 'dispatcherServlet'
+27392 [http-nio-8000-exec-1] INFO  o.s.web.servlet.DispatcherServlet – Initializing Servlet 'dispatcherServlet'
+27587 [http-nio-8000-exec-1] INFO  o.s.web.servlet.DispatcherServlet – Completed initialization in 195 ms
+29003 [http-nio-8000-exec-1] INFO  ru.mirea.task22.AOPAspect – AddressService.createEntity(..)
+29027 [http-nio-8000-exec-1] INFO  ru.mirea.task22.AOPAspect – Method: createEntity from class ru.mirea.task22.services.AddressService[Ljava.lang.Object;@55bf374e persist for 428 ms with parametrs{}: [Address{addressText='Moscow, Studencheskaya street', zipCode='165857'}]
+29901 [task-1] INFO  ru.mirea.task22.AOPAspect – EmailService.sendNotification(..)
+29902 [task-1] INFO  ru.mirea.task22.AOPAspect – Method: sendNotification from class ru.mirea.task22.services.EmailService[Ljava.lang.Object;@75003c07 persist for 902 ms with parametrs{}: [Address{addressText='Moscow, Studencheskaya street', zipCode='165857'}]
+60022 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean – Closing JPA EntityManagerFactory for persistence unit 'default'
+60207 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Shutdown initiated...
+60373 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Shutdown completed.
+2181 [background-preinit] INFO  o.h.validator.internal.util.Version – HV000001: Hibernate Validator 6.2.3.Final
+2290 [main] INFO  ru.mirea.task22.Application – Starting Application using Java 17 on ASUSLaptop-X509DA-D509DA with PID 92662 (/media/shiwarai/YandexDisk/Учёба/Шаблоны Java/JavaPatternMirea/src/ru/mirea/task22/build/classes/java/main started by shiwarai in /media/shiwarai/YandexDisk/Учёба/Шаблоны Java/JavaPatternMirea/src/ru/mirea/task22)
+2296 [main] INFO  ru.mirea.task22.Application – No active profile set, falling back to 1 default profile: "default"
+4643 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+4831 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Finished Spring Data repository scanning in 157 ms. Found 2 JPA repository interfaces.
+7493 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer – Tomcat initialized with port(s): 8000 (http)
+7521 [main] INFO  o.a.coyote.http11.Http11NioProtocol – Initializing ProtocolHandler ["http-nio-8000"]
+7522 [main] INFO  o.a.catalina.core.StandardService – Starting service [Tomcat]
+7524 [main] INFO  o.a.catalina.core.StandardEngine – Starting Servlet engine: [Apache Tomcat/9.0.62]
+7835 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] – Initializing Spring embedded WebApplicationContext
+7837 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext – Root WebApplicationContext: initialization completed in 5390 ms
+8126 [main] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Starting...
+8859 [main] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Start completed.
+9210 [main] INFO  o.h.jpa.internal.util.LogHelper – HHH000204: Processing PersistenceUnitInfo [name: default]
+9551 [main] INFO  org.hibernate.Version – HHH000412: Hibernate ORM core version 5.6.8.Final
+10054 [main] INFO  o.h.annotations.common.Version – HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+10461 [main] INFO  org.hibernate.dialect.Dialect – HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+12236 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator – HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+12261 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean – Initialized JPA EntityManagerFactory for persistence unit 'default'
+13777 [main] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor – Autowired annotation is not supported on static fields: public static java.lang.String ru.mirea.task22.services.EmailService.sender
+14054 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration – spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+14863 [main] INFO  o.a.coyote.http11.Http11NioProtocol – Starting ProtocolHandler ["http-nio-8000"]
+14918 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer – Tomcat started on port(s): 8000 (http) with context path ''
+14937 [main] INFO  ru.mirea.task22.Application – Started Application in 14.174 seconds (JVM running for 15.654)
+60199 [http-nio-8000-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] – Initializing Spring DispatcherServlet 'dispatcherServlet'
+60200 [http-nio-8000-exec-1] INFO  o.s.web.servlet.DispatcherServlet – Initializing Servlet 'dispatcherServlet'
+60203 [http-nio-8000-exec-1] INFO  o.s.web.servlet.DispatcherServlet – Completed initialization in 3 ms
+61275 [http-nio-8000-exec-1] INFO  ru.mirea.task22.AOPAspect – AddressService.createEntity(..)
+2137 [background-preinit] INFO  o.h.validator.internal.util.Version – HV000001: Hibernate Validator 6.2.3.Final
+2200 [main] INFO  ru.mirea.task22.Application – Starting Application using Java 17 on ASUSLaptop-X509DA-D509DA with PID 94063 (/media/shiwarai/YandexDisk/Учёба/Шаблоны Java/JavaPatternMirea/src/ru/mirea/task22/build/classes/java/main started by shiwarai in /media/shiwarai/YandexDisk/Учёба/Шаблоны Java/JavaPatternMirea/src/ru/mirea/task22)
+2204 [main] INFO  ru.mirea.task22.Application – No active profile set, falling back to 1 default profile: "default"
+3916 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+4077 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Finished Spring Data repository scanning in 136 ms. Found 2 JPA repository interfaces.
+6272 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer – Tomcat initialized with port(s): 8000 (http)
+6301 [main] INFO  o.a.coyote.http11.Http11NioProtocol – Initializing ProtocolHandler ["http-nio-8000"]
+6302 [main] INFO  o.a.catalina.core.StandardService – Starting service [Tomcat]
+6304 [main] INFO  o.a.catalina.core.StandardEngine – Starting Servlet engine: [Apache Tomcat/9.0.62]
+6637 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] – Initializing Spring embedded WebApplicationContext
+6638 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext – Root WebApplicationContext: initialization completed in 4277 ms
+7035 [main] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Starting...
+7995 [main] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Start completed.
+8302 [main] INFO  o.h.jpa.internal.util.LogHelper – HHH000204: Processing PersistenceUnitInfo [name: default]
+8526 [main] INFO  org.hibernate.Version – HHH000412: Hibernate ORM core version 5.6.8.Final
+9157 [main] INFO  o.h.annotations.common.Version – HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+9680 [main] INFO  org.hibernate.dialect.Dialect – HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+11503 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator – HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+11667 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean – Initialized JPA EntityManagerFactory for persistence unit 'default'
+13235 [main] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor – Autowired annotation is not supported on static fields: public static java.lang.String ru.mirea.task22.services.EmailService.sender
+13677 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration – spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+15007 [main] INFO  o.a.coyote.http11.Http11NioProtocol – Starting ProtocolHandler ["http-nio-8000"]
+15246 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer – Tomcat started on port(s): 8000 (http) with context path ''
+15300 [main] INFO  ru.mirea.task22.Application – Started Application in 14.41 seconds (JVM running for 16.056)
+20381 [http-nio-8000-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] – Initializing Spring DispatcherServlet 'dispatcherServlet'
+20384 [http-nio-8000-exec-2] INFO  o.s.web.servlet.DispatcherServlet – Initializing Servlet 'dispatcherServlet'
+20389 [http-nio-8000-exec-2] INFO  o.s.web.servlet.DispatcherServlet – Completed initialization in 5 ms
+21151 [http-nio-8000-exec-2] INFO  ru.mirea.task22.AOPAspect – AddressService.createEntity(..)
+21171 [http-nio-8000-exec-2] INFO  ru.mirea.task22.AOPAspect – Method: createEntity from class ru.mirea.task22.services.AddressService[Ljava.lang.Object;@102543e3 persist for 233 ms with parametrs{}: [Address{addressText='Moscow, Studencheskaya street', zipCode='165857'}]
+2827 [background-preinit] INFO  o.h.validator.internal.util.Version – HV000001: Hibernate Validator 6.2.3.Final
+2959 [main] INFO  ru.mirea.task22.Application – Starting Application using Java 17 on ASUSLaptop-X509DA-D509DA with PID 94772 (/media/shiwarai/YandexDisk/Учёба/Шаблоны Java/JavaPatternMirea/src/ru/mirea/task22/build/classes/java/main started by shiwarai in /media/shiwarai/YandexDisk/Учёба/Шаблоны Java/JavaPatternMirea/src/ru/mirea/task22)
+2964 [main] INFO  ru.mirea.task22.Application – No active profile set, falling back to 1 default profile: "default"
+5474 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+5846 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Finished Spring Data repository scanning in 312 ms. Found 2 JPA repository interfaces.
+9435 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer – Tomcat initialized with port(s): 8000 (http)
+9487 [main] INFO  o.a.coyote.http11.Http11NioProtocol – Initializing ProtocolHandler ["http-nio-8000"]
+9489 [main] INFO  o.a.catalina.core.StandardService – Starting service [Tomcat]
+9495 [main] INFO  o.a.catalina.core.StandardEngine – Starting Servlet engine: [Apache Tomcat/9.0.62]
+10174 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] – Initializing Spring embedded WebApplicationContext
+10175 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext – Root WebApplicationContext: initialization completed in 6888 ms
+10655 [main] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Starting...
+12091 [main] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Start completed.
+12628 [main] INFO  o.h.jpa.internal.util.LogHelper – HHH000204: Processing PersistenceUnitInfo [name: default]
+13247 [main] INFO  org.hibernate.Version – HHH000412: Hibernate ORM core version 5.6.8.Final
+14508 [main] INFO  o.h.annotations.common.Version – HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+15118 [main] INFO  org.hibernate.dialect.Dialect – HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+18523 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator – HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+18592 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean – Initialized JPA EntityManagerFactory for persistence unit 'default'
+23885 [main] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor – Autowired annotation is not supported on static fields: public static java.lang.String ru.mirea.task22.services.EmailService.sender
+24188 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration – spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+24936 [main] INFO  o.a.coyote.http11.Http11NioProtocol – Starting ProtocolHandler ["http-nio-8000"]
+24972 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer – Tomcat started on port(s): 8000 (http) with context path ''
+24991 [main] INFO  ru.mirea.task22.Application – Started Application in 23.852 seconds (JVM running for 25.636)
+2479 [background-preinit] INFO  o.h.validator.internal.util.Version – HV000001: Hibernate Validator 6.2.3.Final
+2516 [main] INFO  ru.mirea.task22.Application – Starting Application using Java 17 on ASUSLaptop-X509DA-D509DA with PID 95427 (/media/shiwarai/YandexDisk/Учёба/Шаблоны Java/JavaPatternMirea/src/ru/mirea/task22/build/classes/java/main started by shiwarai in /media/shiwarai/YandexDisk/Учёба/Шаблоны Java/JavaPatternMirea/src/ru/mirea/task22)
+2524 [main] INFO  ru.mirea.task22.Application – No active profile set, falling back to 1 default profile: "default"
+4191 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+4327 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Finished Spring Data repository scanning in 107 ms. Found 2 JPA repository interfaces.
+6712 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer – Tomcat initialized with port(s): 8000 (http)
+6740 [main] INFO  o.a.coyote.http11.Http11NioProtocol – Initializing ProtocolHandler ["http-nio-8000"]
+6741 [main] INFO  o.a.catalina.core.StandardService – Starting service [Tomcat]
+6742 [main] INFO  o.a.catalina.core.StandardEngine – Starting Servlet engine: [Apache Tomcat/9.0.62]
+7072 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] – Initializing Spring embedded WebApplicationContext
+7074 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext – Root WebApplicationContext: initialization completed in 4391 ms
+7398 [main] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Starting...
+8145 [main] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Start completed.
+8548 [main] INFO  o.h.jpa.internal.util.LogHelper – HHH000204: Processing PersistenceUnitInfo [name: default]
+8874 [main] INFO  org.hibernate.Version – HHH000412: Hibernate ORM core version 5.6.8.Final
+9513 [main] INFO  o.h.annotations.common.Version – HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+10043 [main] INFO  org.hibernate.dialect.Dialect – HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+12916 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator – HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+12947 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean – Initialized JPA EntityManagerFactory for persistence unit 'default'
+13930 [main] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor – Autowired annotation is not supported on static fields: public static java.lang.String ru.mirea.task22.services.EmailService.sender
+14326 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration – spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+15323 [main] INFO  o.a.coyote.http11.Http11NioProtocol – Starting ProtocolHandler ["http-nio-8000"]
+15416 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer – Tomcat started on port(s): 8000 (http) with context path ''
+15440 [main] INFO  ru.mirea.task22.Application – Started Application in 14.249 seconds (JVM running for 15.963)
+29320 [http-nio-8000-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] – Initializing Spring DispatcherServlet 'dispatcherServlet'
+29322 [http-nio-8000-exec-2] INFO  o.s.web.servlet.DispatcherServlet – Initializing Servlet 'dispatcherServlet'
+29325 [http-nio-8000-exec-2] INFO  o.s.web.servlet.DispatcherServlet – Completed initialization in 3 ms
+30689 [http-nio-8000-exec-2] INFO  ru.mirea.task22.AOPAspect – AddressService.createEntity(..)
+2833 [background-preinit] INFO  o.h.validator.internal.util.Version – HV000001: Hibernate Validator 6.2.3.Final
+2833 [main] INFO  ru.mirea.task22.Application – Starting Application using Java 17 on ASUSLaptop-X509DA-D509DA with PID 97041 (/media/shiwarai/YandexDisk/Учёба/Шаблоны Java/JavaPatternMirea/src/ru/mirea/task22/build/classes/java/main started by shiwarai in /media/shiwarai/YandexDisk/Учёба/Шаблоны Java/JavaPatternMirea/src/ru/mirea/task22)
+2846 [main] INFO  ru.mirea.task22.Application – No active profile set, falling back to 1 default profile: "default"
+6092 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+6302 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Finished Spring Data repository scanning in 156 ms. Found 2 JPA repository interfaces.
+9217 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer – Tomcat initialized with port(s): 8000 (http)
+9286 [main] INFO  o.a.coyote.http11.Http11NioProtocol – Initializing ProtocolHandler ["http-nio-8000"]
+9288 [main] INFO  o.a.catalina.core.StandardService – Starting service [Tomcat]
+9289 [main] INFO  o.a.catalina.core.StandardEngine – Starting Servlet engine: [Apache Tomcat/9.0.62]
+9597 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] – Initializing Spring embedded WebApplicationContext
+9597 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext – Root WebApplicationContext: initialization completed in 6411 ms
+9940 [main] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Starting...
+11113 [main] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Start completed.
+11564 [main] INFO  o.h.jpa.internal.util.LogHelper – HHH000204: Processing PersistenceUnitInfo [name: default]
+11847 [main] INFO  org.hibernate.Version – HHH000412: Hibernate ORM core version 5.6.8.Final
+12581 [main] INFO  o.h.annotations.common.Version – HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+13312 [main] INFO  org.hibernate.dialect.Dialect – HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+16597 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator – HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+16717 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean – Initialized JPA EntityManagerFactory for persistence unit 'default'
+176160 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool – HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m42s553ms961µs721ns).
+2082 [background-preinit] INFO  o.h.validator.internal.util.Version – HV000001: Hibernate Validator 6.2.3.Final
+2206 [main] INFO  ru.mirea.task22.Application – Starting Application using Java 17 on ASUSLaptop-X509DA-D509DA with PID 98092 (/media/shiwarai/YandexDisk/Учёба/Шаблоны Java/JavaPatternMirea/src/ru/mirea/task22/build/classes/java/main started by shiwarai in /media/shiwarai/YandexDisk/Учёба/Шаблоны Java/JavaPatternMirea/src/ru/mirea/task22)
+2216 [main] INFO  ru.mirea.task22.Application – No active profile set, falling back to 1 default profile: "default"
+3857 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+4006 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Finished Spring Data repository scanning in 121 ms. Found 2 JPA repository interfaces.
+6366 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer – Tomcat initialized with port(s): 8000 (http)
+6393 [main] INFO  o.a.coyote.http11.Http11NioProtocol – Initializing ProtocolHandler ["http-nio-8000"]
+6394 [main] INFO  o.a.catalina.core.StandardService – Starting service [Tomcat]
+6394 [main] INFO  o.a.catalina.core.StandardEngine – Starting Servlet engine: [Apache Tomcat/9.0.62]
+6762 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] – Initializing Spring embedded WebApplicationContext
+6763 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext – Root WebApplicationContext: initialization completed in 4398 ms
+7169 [main] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Starting...
+8001 [main] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Start completed.
+8270 [main] INFO  o.h.jpa.internal.util.LogHelper – HHH000204: Processing PersistenceUnitInfo [name: default]
+8622 [main] INFO  org.hibernate.Version – HHH000412: Hibernate ORM core version 5.6.8.Final
+9149 [main] INFO  o.h.annotations.common.Version – HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+9627 [main] INFO  org.hibernate.dialect.Dialect – HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+11691 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator – HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+11721 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean – Initialized JPA EntityManagerFactory for persistence unit 'default'
+13067 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration – spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+13804 [main] INFO  o.a.coyote.http11.Http11NioProtocol – Starting ProtocolHandler ["http-nio-8000"]
+13851 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer – Tomcat started on port(s): 8000 (http) with context path ''
+13870 [main] INFO  ru.mirea.task22.Application – Started Application in 12.84 seconds (JVM running for 14.351)
+38208 [http-nio-8000-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] – Initializing Spring DispatcherServlet 'dispatcherServlet'
+38212 [http-nio-8000-exec-1] INFO  o.s.web.servlet.DispatcherServlet – Initializing Servlet 'dispatcherServlet'
+38218 [http-nio-8000-exec-1] INFO  o.s.web.servlet.DispatcherServlet – Completed initialization in 5 ms
+39645 [http-nio-8000-exec-1] INFO  ru.mirea.task22.AOPAspect – AddressService.createEntity(..)
+2175 [background-preinit] INFO  o.h.validator.internal.util.Version – HV000001: Hibernate Validator 6.2.3.Final
+2228 [main] INFO  ru.mirea.task22.Application – Starting Application using Java 17 on ASUSLaptop-X509DA-D509DA with PID 98681 (/media/shiwarai/YandexDisk/Учёба/Шаблоны Java/JavaPatternMirea/src/ru/mirea/task22/build/classes/java/main started by shiwarai in /media/shiwarai/YandexDisk/Учёба/Шаблоны Java/JavaPatternMirea/src/ru/mirea/task22)
+2231 [main] INFO  ru.mirea.task22.Application – No active profile set, falling back to 1 default profile: "default"
+3986 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+4135 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Finished Spring Data repository scanning in 120 ms. Found 2 JPA repository interfaces.
+6201 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer – Tomcat initialized with port(s): 8000 (http)
+6224 [main] INFO  o.a.coyote.http11.Http11NioProtocol – Initializing ProtocolHandler ["http-nio-8000"]
+6225 [main] INFO  o.a.catalina.core.StandardService – Starting service [Tomcat]
+6226 [main] INFO  o.a.catalina.core.StandardEngine – Starting Servlet engine: [Apache Tomcat/9.0.62]
+6583 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] – Initializing Spring embedded WebApplicationContext
+6584 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext – Root WebApplicationContext: initialization completed in 4213 ms
+6851 [main] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Starting...
+7507 [main] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Start completed.
+7768 [main] INFO  o.h.jpa.internal.util.LogHelper – HHH000204: Processing PersistenceUnitInfo [name: default]
+8060 [main] INFO  org.hibernate.Version – HHH000412: Hibernate ORM core version 5.6.8.Final
+8549 [main] INFO  o.h.annotations.common.Version – HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+8934 [main] INFO  org.hibernate.dialect.Dialect – HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+10602 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator – HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+10630 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean – Initialized JPA EntityManagerFactory for persistence unit 'default'
+11858 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration – spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+12681 [main] INFO  o.a.coyote.http11.Http11NioProtocol – Starting ProtocolHandler ["http-nio-8000"]
+12777 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer – Tomcat started on port(s): 8000 (http) with context path ''
+12803 [main] INFO  ru.mirea.task22.Application – Started Application in 11.735 seconds (JVM running for 13.241)
+25782 [http-nio-8000-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] – Initializing Spring DispatcherServlet 'dispatcherServlet'
+25783 [http-nio-8000-exec-1] INFO  o.s.web.servlet.DispatcherServlet – Initializing Servlet 'dispatcherServlet'
+25787 [http-nio-8000-exec-1] INFO  o.s.web.servlet.DispatcherServlet – Completed initialization in 3 ms
+48141 [http-nio-8000-exec-1] INFO  ru.mirea.task22.AOPAspect – AddressService.createEntity(..)
+48670 [http-nio-8000-exec-1] INFO  ru.mirea.task22.AOPAspect – Method: createEntity from class ru.mirea.task22.services.AddressService[Ljava.lang.Object;@12e83487 persist for 252 ms with parametrs{}: [Address{addressText='Moscow, Studencheskaya street', zipCode='165857'}]
+51399 [task-1] INFO  ru.mirea.task22.AOPAspect – EmailService.sendNotification(..)
+51400 [task-1] INFO  ru.mirea.task22.AOPAspect – Method: sendNotification from class ru.mirea.task22.services.EmailService[Ljava.lang.Object;@2b852a5c persist for 24916 ms with parametrs{}: [Address{addressText='Moscow, Studencheskaya street', zipCode='165857'}]
+4466 [background-preinit] INFO  o.h.validator.internal.util.Version – HV000001: Hibernate Validator 6.2.3.Final
+4625 [main] INFO  ru.mirea.task22.Application – Starting Application using Java 17 on ASUSLaptop-X509DA-D509DA with PID 10704 (/media/shiwarai/YandexDisk/Учёба/Шаблоны Java/JavaPatternMirea/src/ru/mirea/task22/build/classes/java/main started by shiwarai in /media/shiwarai/YandexDisk/Учёба/Шаблоны Java/JavaPatternMirea/src/ru/mirea/task22)
+4632 [main] INFO  ru.mirea.task22.Application – No active profile set, falling back to 1 default profile: "default"
+7833 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+7981 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Finished Spring Data repository scanning in 122 ms. Found 2 JPA repository interfaces.
+11283 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer – Tomcat initialized with port(s): 8000 (http)
+11324 [main] INFO  o.a.coyote.http11.Http11NioProtocol – Initializing ProtocolHandler ["http-nio-8000"]
+11325 [main] INFO  o.a.catalina.core.StandardService – Starting service [Tomcat]
+11327 [main] INFO  o.a.catalina.core.StandardEngine – Starting Servlet engine: [Apache Tomcat/9.0.62]
+11652 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] – Initializing Spring embedded WebApplicationContext
+11653 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext – Root WebApplicationContext: initialization completed in 6645 ms
+12035 [main] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Starting...
+12908 [main] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Start completed.
+13382 [main] INFO  o.h.jpa.internal.util.LogHelper – HHH000204: Processing PersistenceUnitInfo [name: default]
+13784 [main] INFO  org.hibernate.Version – HHH000412: Hibernate ORM core version 5.6.8.Final
+14486 [main] INFO  o.h.annotations.common.Version – HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+15134 [main] INFO  org.hibernate.dialect.Dialect – HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+17177 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator – HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+17200 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean – Initialized JPA EntityManagerFactory for persistence unit 'default'
+18644 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration – spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+19625 [main] INFO  o.a.coyote.http11.Http11NioProtocol – Starting ProtocolHandler ["http-nio-8000"]
+19655 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer – Tomcat started on port(s): 8000 (http) with context path ''
+19683 [main] INFO  ru.mirea.task22.Application – Started Application in 17.435 seconds (JVM running for 20.378)
+42851 [scheduling-1] INFO  r.m.t.services.SchedulerService – Sheduler Task is started
+42855 [scheduling-1] INFO  r.m.t.services.SchedulerService – Files deleted
+42883 [scheduling-1] INFO  ru.mirea.task22.AOPAspect – SchedulerService.backupFromDatabase()
+42947 [scheduling-1] INFO  ru.mirea.task22.AOPAspect – Method: backupFromDatabase from class ru.mirea.task22.services.SchedulerService[Ljava.lang.Object;@286b884 persist for 61 ms with parametrs{}: []
+102833 [scheduling-1] INFO  r.m.t.services.SchedulerService – Sheduler Task is started
+102937 [scheduling-1] INFO  r.m.t.services.SchedulerService – Files deleted
+102967 [scheduling-1] INFO  ru.mirea.task22.AOPAspect – SchedulerService.backupFromDatabase()
+103041 [scheduling-1] INFO  ru.mirea.task22.AOPAspect – Method: backupFromDatabase from class ru.mirea.task22.services.SchedulerService[Ljava.lang.Object;@38996f40 persist for 137 ms with parametrs{}: []
+151447 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean – Closing JPA EntityManagerFactory for persistence unit 'default'
+151611 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Shutdown initiated...
+151872 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Shutdown completed.
+1867 [background-preinit] INFO  o.h.validator.internal.util.Version – HV000001: Hibernate Validator 6.2.3.Final
+1919 [main] INFO  ru.mirea.task22.Application – Starting Application using Java 17 on ASUSLaptop-X509DA-D509DA with PID 11065 (/media/shiwarai/YandexDisk/Учёба/Шаблоны Java/JavaPatternMirea/src/ru/mirea/task22/build/classes/java/main started by shiwarai in /media/shiwarai/YandexDisk/Учёба/Шаблоны Java/JavaPatternMirea/src/ru/mirea/task22)
+1924 [main] INFO  ru.mirea.task22.Application – No active profile set, falling back to 1 default profile: "default"
+4025 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+4161 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Finished Spring Data repository scanning in 112 ms. Found 2 JPA repository interfaces.
+6387 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer – Tomcat initialized with port(s): 8000 (http)
+6420 [main] INFO  o.a.coyote.http11.Http11NioProtocol – Initializing ProtocolHandler ["http-nio-8000"]
+6422 [main] INFO  o.a.catalina.core.StandardService – Starting service [Tomcat]
+6422 [main] INFO  o.a.catalina.core.StandardEngine – Starting Servlet engine: [Apache Tomcat/9.0.62]
+6658 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] – Initializing Spring embedded WebApplicationContext
+6658 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext – Root WebApplicationContext: initialization completed in 4478 ms
+6963 [main] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Starting...
+7612 [main] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Start completed.
+7922 [main] INFO  o.h.jpa.internal.util.LogHelper – HHH000204: Processing PersistenceUnitInfo [name: default]
+8133 [main] INFO  org.hibernate.Version – HHH000412: Hibernate ORM core version 5.6.8.Final
+8626 [main] INFO  o.h.annotations.common.Version – HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+9089 [main] INFO  org.hibernate.dialect.Dialect – HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+10842 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator – HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+10870 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean – Initialized JPA EntityManagerFactory for persistence unit 'default'
+12181 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration – spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+13042 [main] INFO  o.a.coyote.http11.Http11NioProtocol – Starting ProtocolHandler ["http-nio-8000"]
+13127 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer – Tomcat started on port(s): 8000 (http) with context path ''
+13207 [main] INFO  ru.mirea.task22.Application – Started Application in 12.318 seconds (JVM running for 13.48)
+64004 [scheduling-1] INFO  r.m.t.services.SchedulerService – Sheduler Task is started
+64065 [scheduling-1] INFO  r.m.t.services.SchedulerService – Files deleted
+64094 [scheduling-1] INFO  ru.mirea.task22.AOPAspect – SchedulerService.backupFromDatabase()
+64386 [scheduling-1] INFO  ru.mirea.task22.AOPAspect – Method: backupFromDatabase from class ru.mirea.task22.services.SchedulerService[Ljava.lang.Object;@68f93d23 persist for 365 ms with parametrs{}: []
+123437 [scheduling-1] INFO  r.m.t.services.SchedulerService – Sheduler Task is started
+123440 [scheduling-1] INFO  r.m.t.services.SchedulerService – Files deleted
+123443 [scheduling-1] INFO  ru.mirea.task22.AOPAspect – SchedulerService.backupFromDatabase()
+123444 [scheduling-1] INFO  ru.mirea.task22.AOPAspect – Method: backupFromDatabase from class ru.mirea.task22.services.SchedulerService[Ljava.lang.Object;@17542d7f persist for 6 ms with parametrs{}: []
+183437 [scheduling-1] INFO  r.m.t.services.SchedulerService – Sheduler Task is started
+183440 [scheduling-1] INFO  r.m.t.services.SchedulerService – Files deleted
+183443 [scheduling-1] INFO  ru.mirea.task22.AOPAspect – SchedulerService.backupFromDatabase()
+183444 [scheduling-1] INFO  ru.mirea.task22.AOPAspect – Method: backupFromDatabase from class ru.mirea.task22.services.SchedulerService[Ljava.lang.Object;@793dff1b persist for 6 ms with parametrs{}: []
+242266 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean – Closing JPA EntityManagerFactory for persistence unit 'default'
+242340 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Shutdown initiated...
+242558 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Shutdown completed.
+3962 [background-preinit] INFO  o.h.validator.internal.util.Version – HV000001: Hibernate Validator 6.2.3.Final
+4050 [main] INFO  ru.mirea.task22.Application – Starting Application using Java 17 on ASUSLaptop-X509DA-D509DA with PID 11461 (/media/shiwarai/YandexDisk/Учёба/Шаблоны Java/JavaPatternMirea/src/ru/mirea/task22/build/classes/java/main started by shiwarai in /media/shiwarai/YandexDisk/Учёба/Шаблоны Java/JavaPatternMirea/src/ru/mirea/task22)
+4054 [main] INFO  ru.mirea.task22.Application – No active profile set, falling back to 1 default profile: "default"
+6869 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+7017 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Finished Spring Data repository scanning in 120 ms. Found 2 JPA repository interfaces.
+9746 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer – Tomcat initialized with port(s): 8000 (http)
+9784 [main] INFO  o.a.coyote.http11.Http11NioProtocol – Initializing ProtocolHandler ["http-nio-8000"]
+9785 [main] INFO  o.a.catalina.core.StandardService – Starting service [Tomcat]
+9786 [main] INFO  o.a.catalina.core.StandardEngine – Starting Servlet engine: [Apache Tomcat/9.0.62]
+10182 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] – Initializing Spring embedded WebApplicationContext
+10183 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext – Root WebApplicationContext: initialization completed in 5763 ms
+10610 [main] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Starting...
+11506 [main] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Start completed.
+11844 [main] INFO  o.h.jpa.internal.util.LogHelper – HHH000204: Processing PersistenceUnitInfo [name: default]
+12152 [main] INFO  org.hibernate.Version – HHH000412: Hibernate ORM core version 5.6.8.Final
+12751 [main] INFO  o.h.annotations.common.Version – HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+13177 [main] INFO  org.hibernate.dialect.Dialect – HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+14959 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator – HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+14983 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean – Initialized JPA EntityManagerFactory for persistence unit 'default'
+16440 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration – spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+17245 [main] INFO  o.a.coyote.http11.Http11NioProtocol – Starting ProtocolHandler ["http-nio-8000"]
+17314 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer – Tomcat started on port(s): 8000 (http) with context path ''
+17353 [main] INFO  ru.mirea.task22.Application – Started Application in 15.647 seconds (JVM running for 18.267)
+38351 [scheduling-1] INFO  r.m.t.services.SchedulerService – Sheduler Task is started
+67916 [scheduling-1] INFO  r.m.t.services.SchedulerService – Files deleted
+67948 [scheduling-1] INFO  ru.mirea.task22.AOPAspect – SchedulerService.backupFromDatabase()
+68013 [scheduling-1] INFO  ru.mirea.task22.AOPAspect – Method: backupFromDatabase from class ru.mirea.task22.services.SchedulerService[Ljava.lang.Object;@1a316bb7 persist for 29602 ms with parametrs{}: []
+97970 [http-nio-8000-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] – Initializing Spring DispatcherServlet 'dispatcherServlet'
+97986 [http-nio-8000-exec-2] INFO  o.s.web.servlet.DispatcherServlet – Initializing Servlet 'dispatcherServlet'
+98081 [http-nio-8000-exec-2] INFO  o.s.web.servlet.DispatcherServlet – Completed initialization in 95 ms
+98313 [scheduling-1] INFO  r.m.t.services.SchedulerService – Sheduler Task is started
+98323 [scheduling-1] INFO  r.m.t.services.SchedulerService – Files deleted
+98337 [scheduling-1] INFO  ru.mirea.task22.AOPAspect – SchedulerService.backupFromDatabase()
+98341 [scheduling-1] INFO  ru.mirea.task22.AOPAspect – Method: backupFromDatabase from class ru.mirea.task22.services.SchedulerService[Ljava.lang.Object;@1fbe3ab7 persist for 26 ms with parametrs{}: []
+99436 [http-nio-8000-exec-2] INFO  ru.mirea.task22.AOPAspect – BuildingService.readAllEntity()
+99437 [http-nio-8000-exec-2] INFO  ru.mirea.task22.AOPAspect – Method: readAllEntity from class ru.mirea.task22.services.BuildingService[Ljava.lang.Object;@16355ac persist for 884 ms with parametrs{}: []
+158324 [scheduling-1] INFO  r.m.t.services.SchedulerService – Sheduler Task is started
+158389 [scheduling-1] INFO  r.m.t.services.SchedulerService – Files deleted
+158399 [scheduling-1] INFO  ru.mirea.task22.AOPAspect – SchedulerService.backupFromDatabase()
+158404 [scheduling-1] INFO  ru.mirea.task22.AOPAspect – Method: backupFromDatabase from class ru.mirea.task22.services.SchedulerService[Ljava.lang.Object;@7e88a365 persist for 77 ms with parametrs{}: []
+1774 [background-preinit] INFO  o.h.validator.internal.util.Version – HV000001: Hibernate Validator 6.2.3.Final
+1815 [main] INFO  ru.mirea.task22.Application – Starting Application using Java 17 on ASUSLaptop-X509DA-D509DA with PID 11725 (/media/shiwarai/YandexDisk/Учёба/Шаблоны Java/JavaPatternMirea/src/ru/mirea/task22/build/classes/java/main started by shiwarai in /media/shiwarai/YandexDisk/Учёба/Шаблоны Java/JavaPatternMirea/src/ru/mirea/task22)
+1818 [main] INFO  ru.mirea.task22.Application – No active profile set, falling back to 1 default profile: "default"
+3331 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+3465 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Finished Spring Data repository scanning in 109 ms. Found 2 JPA repository interfaces.
+5414 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer – Tomcat initialized with port(s): 8000 (http)
+5437 [main] INFO  o.a.coyote.http11.Http11NioProtocol – Initializing ProtocolHandler ["http-nio-8000"]
+5438 [main] INFO  o.a.catalina.core.StandardService – Starting service [Tomcat]
+5438 [main] INFO  o.a.catalina.core.StandardEngine – Starting Servlet engine: [Apache Tomcat/9.0.62]
+5960 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] – Initializing Spring embedded WebApplicationContext
+5961 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext – Root WebApplicationContext: initialization completed in 3985 ms
+6205 [main] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Starting...
+6779 [main] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Start completed.
+6991 [main] INFO  o.h.jpa.internal.util.LogHelper – HHH000204: Processing PersistenceUnitInfo [name: default]
+7208 [main] INFO  org.hibernate.Version – HHH000412: Hibernate ORM core version 5.6.8.Final
+7676 [main] INFO  o.h.annotations.common.Version – HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+8056 [main] INFO  org.hibernate.dialect.Dialect – HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+9585 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator – HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+9608 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean – Initialized JPA EntityManagerFactory for persistence unit 'default'
+10619 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration – spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+11241 [main] INFO  o.a.coyote.http11.Http11NioProtocol – Starting ProtocolHandler ["http-nio-8000"]
+11264 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer – Tomcat started on port(s): 8000 (http) with context path ''
+11297 [main] INFO  ru.mirea.task22.Application – Started Application in 10.392 seconds (JVM running for 11.879)
+14409 [scheduling-1] INFO  r.m.t.services.SchedulerService – Sheduler Task is started
+14419 [scheduling-1] INFO  ru.mirea.task22.AOPAspect – SchedulerService.backupFromDatabase()
+14438 [scheduling-1] INFO  ru.mirea.task22.AOPAspect – Method: backupFromDatabase from class ru.mirea.task22.services.SchedulerService[Ljava.lang.Object;@68f93d23 persist for 40 ms with parametrs{}: []
+73990 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean – Closing JPA EntityManagerFactory for persistence unit 'default'
+74008 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Shutdown initiated...
+74071 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Shutdown completed.
+3717 [background-preinit] INFO  o.h.validator.internal.util.Version – HV000001: Hibernate Validator 6.2.3.Final
+3735 [main] INFO  ru.mirea.task22.Application – Starting Application using Java 17 on ASUSLaptop-X509DA-D509DA with PID 11951 (/media/shiwarai/YandexDisk/Учёба/Шаблоны Java/JavaPatternMirea/src/ru/mirea/task22/build/classes/java/main started by shiwarai in /media/shiwarai/YandexDisk/Учёба/Шаблоны Java/JavaPatternMirea/src/ru/mirea/task22)
+3737 [main] INFO  ru.mirea.task22.Application – No active profile set, falling back to 1 default profile: "default"
+7081 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+7470 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Finished Spring Data repository scanning in 298 ms. Found 2 JPA repository interfaces.
+10608 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer – Tomcat initialized with port(s): 8000 (http)
+10638 [main] INFO  o.a.coyote.http11.Http11NioProtocol – Initializing ProtocolHandler ["http-nio-8000"]
+10639 [main] INFO  o.a.catalina.core.StandardService – Starting service [Tomcat]
+10641 [main] INFO  o.a.catalina.core.StandardEngine – Starting Servlet engine: [Apache Tomcat/9.0.62]
+10973 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] – Initializing Spring embedded WebApplicationContext
+10974 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext – Root WebApplicationContext: initialization completed in 6979 ms
+11827 [main] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Starting...
+12744 [main] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Start completed.
+13678 [main] INFO  o.h.jpa.internal.util.LogHelper – HHH000204: Processing PersistenceUnitInfo [name: default]
+14011 [main] INFO  org.hibernate.Version – HHH000412: Hibernate ORM core version 5.6.8.Final
+14524 [main] INFO  o.h.annotations.common.Version – HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+15025 [main] INFO  org.hibernate.dialect.Dialect – HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+16957 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator – HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+16989 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean – Initialized JPA EntityManagerFactory for persistence unit 'default'
+18666 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration – spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+19967 [main] INFO  o.a.coyote.http11.Http11NioProtocol – Starting ProtocolHandler ["http-nio-8000"]
+20054 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer – Tomcat started on port(s): 8000 (http) with context path ''
+20120 [main] INFO  ru.mirea.task22.Application – Started Application in 18.422 seconds (JVM running for 20.774)
+33254 [scheduling-1] INFO  r.m.t.services.SchedulerService – Sheduler Task is started
+2320 [background-preinit] INFO  o.h.validator.internal.util.Version – HV000001: Hibernate Validator 6.2.3.Final
+2466 [main] INFO  ru.mirea.task22.Application – Starting Application using Java 17 on ASUSLaptop-X509DA-D509DA with PID 12362 (/media/shiwarai/YandexDisk/Учёба/Шаблоны Java/JavaPatternMirea/src/ru/mirea/task22/build/classes/java/main started by shiwarai in /media/shiwarai/YandexDisk/Учёба/Шаблоны Java/JavaPatternMirea/src/ru/mirea/task22)
+2471 [main] INFO  ru.mirea.task22.Application – No active profile set, falling back to 1 default profile: "default"
+4886 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+5212 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Finished Spring Data repository scanning in 272 ms. Found 2 JPA repository interfaces.
+8630 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer – Tomcat initialized with port(s): 8000 (http)
+8671 [main] INFO  o.a.coyote.http11.Http11NioProtocol – Initializing ProtocolHandler ["http-nio-8000"]
+8673 [main] INFO  o.a.catalina.core.StandardService – Starting service [Tomcat]
+8674 [main] INFO  o.a.catalina.core.StandardEngine – Starting Servlet engine: [Apache Tomcat/9.0.62]
+8937 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] – Initializing Spring embedded WebApplicationContext
+8938 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext – Root WebApplicationContext: initialization completed in 6192 ms
+9687 [main] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Starting...
+10412 [main] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Start completed.
+10795 [main] INFO  o.h.jpa.internal.util.LogHelper – HHH000204: Processing PersistenceUnitInfo [name: default]
+11055 [main] INFO  org.hibernate.Version – HHH000412: Hibernate ORM core version 5.6.8.Final
+11629 [main] INFO  o.h.annotations.common.Version – HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+12155 [main] INFO  org.hibernate.dialect.Dialect – HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+14547 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator – HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+14577 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean – Initialized JPA EntityManagerFactory for persistence unit 'default'
+16087 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration – spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+17061 [main] INFO  o.a.coyote.http11.Http11NioProtocol – Starting ProtocolHandler ["http-nio-8000"]
+17167 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer – Tomcat started on port(s): 8000 (http) with context path ''
+17260 [main] INFO  ru.mirea.task22.Application – Started Application in 16.427 seconds (JVM running for 17.828)
+28697 [scheduling-1] INFO  r.m.t.services.SchedulerService – Sheduler Task is started
+6891 [background-preinit] INFO  o.h.validator.internal.util.Version – HV000001: Hibernate Validator 6.2.3.Final
+6946 [main] INFO  ru.mirea.task22.Application – Starting Application using Java 17 on ASUSLaptop-X509DA-D509DA with PID 12864 (/media/shiwarai/YandexDisk/Учёба/Шаблоны Java/JavaPatternMirea/src/ru/mirea/task22/build/classes/java/main started by shiwarai in /media/shiwarai/YandexDisk/Учёба/Шаблоны Java/JavaPatternMirea/src/ru/mirea/task22)
+6955 [main] INFO  ru.mirea.task22.Application – No active profile set, falling back to 1 default profile: "default"
+11439 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+11820 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Finished Spring Data repository scanning in 325 ms. Found 2 JPA repository interfaces.
+18121 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer – Tomcat initialized with port(s): 8000 (http)
+18172 [main] INFO  o.a.coyote.http11.Http11NioProtocol – Initializing ProtocolHandler ["http-nio-8000"]
+18174 [main] INFO  o.a.catalina.core.StandardService – Starting service [Tomcat]
+18175 [main] INFO  o.a.catalina.core.StandardEngine – Starting Servlet engine: [Apache Tomcat/9.0.62]
+19534 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] – Initializing Spring embedded WebApplicationContext
+19535 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext – Root WebApplicationContext: initialization completed in 12007 ms
+20806 [main] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Starting...
+23091 [main] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Start completed.
+23971 [main] INFO  o.h.jpa.internal.util.LogHelper – HHH000204: Processing PersistenceUnitInfo [name: default]
+24317 [main] INFO  org.hibernate.Version – HHH000412: Hibernate ORM core version 5.6.8.Final
+25520 [main] INFO  o.h.annotations.common.Version – HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+26555 [main] INFO  org.hibernate.dialect.Dialect – HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+29782 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator – HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+29824 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean – Initialized JPA EntityManagerFactory for persistence unit 'default'
+32332 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration – spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+34092 [main] INFO  o.a.coyote.http11.Http11NioProtocol – Starting ProtocolHandler ["http-nio-8000"]
+34209 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer – Tomcat started on port(s): 8000 (http) with context path ''
+34280 [main] INFO  ru.mirea.task22.Application – Started Application in 31.29 seconds (JVM running for 35.519)
+82411 [scheduling-1] INFO  r.m.t.services.SchedulerService – Sheduler Task is started
+280637 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool – HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m47s410ms629µs788ns).
+280756 [scheduling-1] INFO  r.m.t.services.SchedulerService – Files deleted
+283195 [scheduling-1] INFO  ru.mirea.task22.AOPAspect – AddressService.readAllEntity()
+283227 [scheduling-1] INFO  ru.mirea.task22.AOPAspect – Method: readAllEntity from class ru.mirea.task22.services.AddressService[Ljava.lang.Object;@53b927f1 persist for 1781 ms with parametrs{}: []
+283380 [scheduling-1] INFO  ru.mirea.task22.AOPAspect – BuildingService.readAllEntity()
+283381 [scheduling-1] INFO  ru.mirea.task22.AOPAspect – Method: readAllEntity from class ru.mirea.task22.services.BuildingService[Ljava.lang.Object;@2ec8f5f7 persist for 58 ms with parametrs{}: []
+283389 [scheduling-1] INFO  r.m.t.services.SchedulerService – Sheduler Task is ended
+283389 [scheduling-1] INFO  ru.mirea.task22.AOPAspect – SchedulerService.backupFromDatabase()
+283390 [scheduling-1] INFO  ru.mirea.task22.AOPAspect – Method: backupFromDatabase from class ru.mirea.task22.services.SchedulerService[Ljava.lang.Object;@84d73d8 persist for 201080 ms with parametrs{}: []
+2716 [background-preinit] INFO  o.h.validator.internal.util.Version – HV000001: Hibernate Validator 6.2.3.Final
+2818 [main] INFO  ru.mirea.task22.Application – Starting Application using Java 17 on ASUSLaptop-X509DA-D509DA with PID 13271 (/media/shiwarai/YandexDisk/Учёба/Шаблоны Java/JavaPatternMirea/src/ru/mirea/task22/build/classes/java/main started by shiwarai in /media/shiwarai/YandexDisk/Учёба/Шаблоны Java/JavaPatternMirea/src/ru/mirea/task22)
+2827 [main] INFO  ru.mirea.task22.Application – No active profile set, falling back to 1 default profile: "default"
+5586 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+5785 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Finished Spring Data repository scanning in 153 ms. Found 2 JPA repository interfaces.
+8464 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer – Tomcat initialized with port(s): 8000 (http)
+8490 [main] INFO  o.a.coyote.http11.Http11NioProtocol – Initializing ProtocolHandler ["http-nio-8000"]
+8491 [main] INFO  o.a.catalina.core.StandardService – Starting service [Tomcat]
+8493 [main] INFO  o.a.catalina.core.StandardEngine – Starting Servlet engine: [Apache Tomcat/9.0.62]
+8777 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] – Initializing Spring embedded WebApplicationContext
+8779 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext – Root WebApplicationContext: initialization completed in 5712 ms
+9051 [main] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Starting...
+9839 [main] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Start completed.
+10632 [main] INFO  o.h.jpa.internal.util.LogHelper – HHH000204: Processing PersistenceUnitInfo [name: default]
+10856 [main] INFO  org.hibernate.Version – HHH000412: Hibernate ORM core version 5.6.8.Final
+11348 [main] INFO  o.h.annotations.common.Version – HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+11693 [main] INFO  org.hibernate.dialect.Dialect – HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+13319 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator – HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+13343 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean – Initialized JPA EntityManagerFactory for persistence unit 'default'
+14828 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration – spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+16331 [main] INFO  o.a.coyote.http11.Http11NioProtocol – Starting ProtocolHandler ["http-nio-8000"]
+16442 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer – Tomcat started on port(s): 8000 (http) with context path ''
+16503 [main] INFO  ru.mirea.task22.Application – Started Application in 15.248 seconds (JVM running for 16.868)
+30059 [scheduling-1] INFO  r.m.t.services.SchedulerService – Sheduler Task is started
+30063 [scheduling-1] INFO  r.m.t.services.SchedulerService – Files deleted
+30903 [scheduling-1] INFO  ru.mirea.task22.AOPAspect – AddressService.readAllEntity()
+30920 [scheduling-1] INFO  ru.mirea.task22.AOPAspect – Method: readAllEntity from class ru.mirea.task22.services.AddressService[Ljava.lang.Object;@31b3ebb1 persist for 802 ms with parametrs{}: []
+31095 [scheduling-1] INFO  ru.mirea.task22.AOPAspect – BuildingService.readAllEntity()
+31103 [scheduling-1] INFO  ru.mirea.task22.AOPAspect – Method: readAllEntity from class ru.mirea.task22.services.BuildingService[Ljava.lang.Object;@39c8e4d9 persist for 119 ms with parametrs{}: []
+31125 [scheduling-1] INFO  r.m.t.services.SchedulerService – Sheduler Task is ended
+31125 [scheduling-1] INFO  ru.mirea.task22.AOPAspect – SchedulerService.backupFromDatabase()
+31126 [scheduling-1] INFO  ru.mirea.task22.AOPAspect – Method: backupFromDatabase from class ru.mirea.task22.services.SchedulerService[Ljava.lang.Object;@3c3562c8 persist for 1095 ms with parametrs{}: []
+90049 [scheduling-1] INFO  r.m.t.services.SchedulerService – Sheduler Task is started
+90166 [scheduling-1] INFO  r.m.t.services.SchedulerService – Files deleted
+90399 [scheduling-1] INFO  ru.mirea.task22.AOPAspect – AddressService.readAllEntity()
+90404 [scheduling-1] INFO  ru.mirea.task22.AOPAspect – Method: readAllEntity from class ru.mirea.task22.services.AddressService[Ljava.lang.Object;@e0fd6da persist for 156 ms with parametrs{}: []
+90455 [scheduling-1] INFO  ru.mirea.task22.AOPAspect – BuildingService.readAllEntity()
+90456 [scheduling-1] INFO  ru.mirea.task22.AOPAspect – Method: readAllEntity from class ru.mirea.task22.services.BuildingService[Ljava.lang.Object;@50e4138d persist for 17 ms with parametrs{}: []
+90460 [scheduling-1] INFO  r.m.t.services.SchedulerService – Sheduler Task is ended
+90461 [scheduling-1] INFO  ru.mirea.task22.AOPAspect – SchedulerService.backupFromDatabase()
+90465 [scheduling-1] INFO  ru.mirea.task22.AOPAspect – Method: backupFromDatabase from class ru.mirea.task22.services.SchedulerService[Ljava.lang.Object;@6d1a2843 persist for 417 ms with parametrs{}: []
+150019 [scheduling-1] INFO  r.m.t.services.SchedulerService – Sheduler Task is started
+150024 [scheduling-1] INFO  r.m.t.services.SchedulerService – Files deleted
+150053 [scheduling-1] INFO  ru.mirea.task22.AOPAspect – AddressService.readAllEntity()
+150054 [scheduling-1] INFO  ru.mirea.task22.AOPAspect – Method: readAllEntity from class ru.mirea.task22.services.AddressService[Ljava.lang.Object;@a2af176 persist for 24 ms with parametrs{}: []
+150063 [scheduling-1] INFO  ru.mirea.task22.AOPAspect – BuildingService.readAllEntity()
+150064 [scheduling-1] INFO  ru.mirea.task22.AOPAspect – Method: readAllEntity from class ru.mirea.task22.services.BuildingService[Ljava.lang.Object;@23a7a3b5 persist for 4 ms with parametrs{}: []
+150067 [scheduling-1] INFO  r.m.t.services.SchedulerService – Sheduler Task is ended
+150067 [scheduling-1] INFO  ru.mirea.task22.AOPAspect – SchedulerService.backupFromDatabase()
+150068 [scheduling-1] INFO  ru.mirea.task22.AOPAspect – Method: backupFromDatabase from class ru.mirea.task22.services.SchedulerService[Ljava.lang.Object;@1980842c persist for 48 ms with parametrs{}: []
+210049 [scheduling-1] INFO  r.m.t.services.SchedulerService – Sheduler Task is started
+210134 [scheduling-1] INFO  r.m.t.services.SchedulerService – Files deleted
+210515 [scheduling-1] INFO  ru.mirea.task22.AOPAspect – AddressService.readAllEntity()
+210522 [scheduling-1] INFO  ru.mirea.task22.AOPAspect – Method: readAllEntity from class ru.mirea.task22.services.AddressService[Ljava.lang.Object;@52df4ed1 persist for 196 ms with parametrs{}: []
+210562 [scheduling-1] INFO  ru.mirea.task22.AOPAspect – BuildingService.readAllEntity()
+210562 [scheduling-1] INFO  ru.mirea.task22.AOPAspect – Method: readAllEntity from class ru.mirea.task22.services.BuildingService[Ljava.lang.Object;@177eae58 persist for 16 ms with parametrs{}: []
+210566 [scheduling-1] INFO  r.m.t.services.SchedulerService – Sheduler Task is ended
+210567 [scheduling-1] INFO  ru.mirea.task22.AOPAspect – SchedulerService.backupFromDatabase()
+210567 [scheduling-1] INFO  ru.mirea.task22.AOPAspect – Method: backupFromDatabase from class ru.mirea.task22.services.SchedulerService[Ljava.lang.Object;@34d4732d persist for 524 ms with parametrs{}: []
+224277 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean – Closing JPA EntityManagerFactory for persistence unit 'default'
+224349 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Shutdown initiated...
+224578 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Shutdown completed.

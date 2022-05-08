@@ -1,0 +1,7 @@
+Address{addressText='Moscow', zipCode='165656'}
+Address{addressText='Yegoryevvks', zipCode='165616'}
+Address{addressText='Moscow', zipCode='165621'}
+Address{addressText='Moscow', zipCode='165656'}
+Address{addressText='Moscow, Studencheskaya street', zipCode='165857'}
+Address{addressText='Moscow, Studencheskaya street', zipCode='165857'}
+Address{addressText='Moscow, Studencheskaya street', zipCode='165857'}

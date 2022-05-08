@@ -23,7 +23,7 @@ public class SchedulerService {
     private BuildingService buildingService;
 
 
-    @Scheduled(cron = "*/30 * * * *")
+    @Scheduled(cron = "0 */30 * ? * *")
     @ManagedOperation(description = "Clear backups and create new files")
     public void backupFromDatabase() throws IOException {
         log.info("Sheduler task is started");
